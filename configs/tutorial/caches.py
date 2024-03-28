@@ -6,7 +6,7 @@ class L1Cache(Cache):
     data_latency = 2
     response_latency = 2
     mshrs = 4
-    tgts_per_mshr = 20
+    tgts_per_mshr = 10
 
     def connectCPU(self, cpu):
         raise NotImplementedError
