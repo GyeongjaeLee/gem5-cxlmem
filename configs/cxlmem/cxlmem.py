@@ -46,3 +46,21 @@ system.mem_ctrls = [fast_mem_ctrl, slow_mem_ctrl]
 system.system_port = system.membus.slave
 
 system = config_cache(options, system)
+
+binary = 'tests/test-progs/hello/bin/x86/linux/hello'
+
+system.workload = SEWorkload.init_compatible(binary)
+
+process = Process()
+process.cmd = [binary]
+system.cpu.workload = process
+system.cpu.createThreads()
+
+root = Root(full_system = False, system = system)
+m5.initiantiate()
+
+print("Beginning simulation!")
+exit_event = m5.simulate()
+
+print('Exiting @ tick {} because {}'.format(m5.curTick(), exit_event.getCause()))
+
