@@ -155,8 +155,15 @@ def addNoISAOptions(parser):
         "--mem-size",
         action="store",
         type=str,
-        default="512MB",
-        help="Specify the physical memory size (single memory)",
+        default="16GB",
+        help="Specify the physical memory size",
+    )
+    parser.add_argument(
+        "--fast_mem-size",
+        action="store",
+        type=str,
+        default="8GB",
+        help="Specify the physical memory size of fast memory",
     )
     parser.add_argument(
         "--enable-dram-powerdown",
