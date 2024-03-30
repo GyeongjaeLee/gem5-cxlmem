@@ -83,7 +83,7 @@ class L3Cache(Cache):
     tag_latency = 40
     data_latency = 40
     response_latency = 40
-    mshr = 32
+    mshrs = 32
     tgts_per_mshr = 24
     write_buffers = 16
     

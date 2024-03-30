@@ -196,7 +196,7 @@ def config_cache(options, system):
 
             if options.l3cache:
                 system.cpu[i].l2 = l2_cache_class(
-                    clk_domain=system.pcu_clk_domain, **_get_cache_opts("l2", options)
+                    clk_domain=system.cpu_clk_domain, **_get_cache_opts("l2", options)
                 )
                 system.cpu[i].tol2bus = L2XBar(clk_domain=system.cpu_clk_domain)
                 system.cpu[i].l2.cpu_side = system.cpu[i].tol2bus.mem_side_ports
