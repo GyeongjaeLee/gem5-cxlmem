@@ -1,0 +1,8 @@
+1..7
+ok 1 - ord('A') is 65
+ok 2 - compile time chr 500
+ok 3 - ord('ABC') is 65
+ok 4 - chr can produce 'A'
+ok 5 - runtime chr 500
+ok 6 - compile time ord \x{....}
+ok 7 - runtime ord \x{....}

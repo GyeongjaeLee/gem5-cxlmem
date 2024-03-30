@@ -1,0 +1,61 @@
+ Welcome to GemsFDTD
+
+ *******PROBLEMSIZE*************************
+ problemsize:         210         210         210
+ *******CELLSIZE****************************
+ dx:   1.0000000000000000E-002
+ dy:   1.0000000000000000E-002
+ dz:   1.0000000000000000E-002
+ *******NSTEP*******************************
+ nstep:           2
+ *******PLANEWAVE*************************
+ wavedir:   0.0000000000000000        0.0000000000000000        1.0000000000000000     
+ Epol:   1.0000000000000000        0.0000000000000000       -0.0000000000000000     
+ PulseType:           6
+ param:   1.2000000000000000E-009   2.0000000000000001E-010  -1111.0999999999999     
+ X0:   0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ Disttobound:          10
+ ***************PEC*************************
+ Number of components:        28686
+ *******OUTERBOUNDARY***********************
+ #cells:          12
+ R0:    1.0000000000000000E-004
+ proftype:           4
+ *******CFL*********************************
+ CFL:  0.94999999999999996     
+ *******NFTRANS_TD**************************
+ Disttobound:          15
+ Theta_angles_no:           4
+ Theta_interval:   180.00000000000000        360.00000000000000     
+ Phi_angles_no:           1
+ Phi_interval:   0.0000000000000000        0.0000000000000000     
+ Filenamebase: sphere_td
+ *******PROGRESS****************************
+ progress,iteration:   100.00000000000000     
+
+
+ dt*c0 =    5.4848275573014449E-003
+ Number of timesteps to propagate one (x)-cell:  1.82
+ Ret. time arrays allocated in Huygens_mod, bytes used =      7041024
+ Searching for patches in PECinit:
+        7172 X-patches found
+        7172 Y-patches found
+        7172 Z-patches found
+ Fields allocated in UPML_mod, bytes used =    181570800
+
+ pml_cells =           12
+ Using polynomial profile for sigma, with degree           4
+ Arrays allocated in NFT_mod, bytes used =     56998272
+ Size of leading dimension for H-fields = 234
+ Size of leading dimension for E-fields = 235
+ Fields allocated in leapfrog_mod, bytes used =    618978696
+ (   171260352  bytes of this is due to UPML)
+
+ Total amount of Mbytes allocated =   824
+
+ ============================================================
+ Entering timestepping loop
+ Total number of iterations are            2
+ Starting timer in the beginning of the second time step
+ Ending timestepping loop
+ No. of Allocations (         150 )/(         150 ) deallocations.  Ok 

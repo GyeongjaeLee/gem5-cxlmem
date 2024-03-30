@@ -1,0 +1,134 @@
+1..133
+ok 1 - optimized
+ok 2 - unoptimized
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+ok 17
+ok 18
+ok 19
+ok 20
+ok 21
+ok 22
+ok 23
+ok 24
+ok 25
+ok 26
+ok 27
+ok 28
+ok 29
+ok 30
+ok 31 - Go Unicode
+ok 32
+ok 33
+ok 34
+ok 35
+ok 36
+ok 37
+ok 38
+ok 39 - chomp ref (modify)
+ok 40
+ok 41 - chomp ref (no modify)
+ok 42 - chomp hash key
+ok 43 - chomp hash key
+ok 44 - chomp hash key
+ok 45 - chop hash key
+ok 46 - chop hash key
+ok 47 - chop hash key
+ok 48
+ok 49
+ok 50
+ok 51
+ok 52 - start=78 end=78 [returns 1]
+ok 53 - start=78 end=78
+ok 54 - start=78 end=211 [returns 1]
+ok 55 - start=78 end=211
+ok 56 - start=78 end=211 (end as bytes) [returns 0]
+ok 57 - start=78 end=211 (end as bytes)
+ok 58 - start=78 end=211 ($/ as bytes) [returns 0]
+ok 59 - start=78 end=211 ($/ as bytes)
+ok 60 - start=78 end=212 [returns 1]
+ok 61 - start=78 end=212
+ok 62 - start=78 end=212 (end as bytes) [returns 0]
+ok 63 - start=78 end=212 (end as bytes)
+ok 64 - start=78 end=212 ($/ as bytes) [returns 0]
+ok 65 - start=78 end=212 ($/ as bytes)
+ok 66 - start=78 end=1296 [returns 1]
+ok 67 - start=78 end=1296
+ok 68 - start=78 end=1296 (end as bytes) [returns 0]
+ok 69 - start=78 end=1296 (end as bytes)
+ok 70 - start=78 end=1296 ($/ as bytes) [returns 0]
+ok 71 - start=78 end=1296 ($/ as bytes)
+ok 72 - start=211 end=78 [returns 1]
+ok 73 - start=211 end=78
+ok 74 - start=211 end=211 [returns 1]
+ok 75 - start=211 end=211
+ok 76 - start=211 end=211 (end as bytes) [returns 0]
+ok 77 - start=211 end=211 (end as bytes)
+ok 78 - start=211 end=211 ($/ as bytes) [returns 0]
+ok 79 - start=211 end=211 ($/ as bytes)
+ok 80 - start=211 end=212 [returns 1]
+ok 81 - start=211 end=212
+ok 82 - start=211 end=212 (end as bytes) [returns 0]
+ok 83 - start=211 end=212 (end as bytes)
+ok 84 - start=211 end=212 ($/ as bytes) [returns 0]
+ok 85 - start=211 end=212 ($/ as bytes)
+ok 86 - start=211 end=1296 [returns 1]
+ok 87 - start=211 end=1296
+ok 88 - start=211 end=1296 (end as bytes) [returns 0]
+ok 89 - start=211 end=1296 (end as bytes)
+ok 90 - start=211 end=1296 ($/ as bytes) [returns 0]
+ok 91 - start=211 end=1296 ($/ as bytes)
+ok 92 - start=212 end=78 [returns 1]
+ok 93 - start=212 end=78
+ok 94 - start=212 end=211 [returns 1]
+ok 95 - start=212 end=211
+ok 96 - start=212 end=211 (end as bytes) [returns 0]
+ok 97 - start=212 end=211 (end as bytes)
+ok 98 - start=212 end=211 ($/ as bytes) [returns 0]
+ok 99 - start=212 end=211 ($/ as bytes)
+ok 100 - start=212 end=212 [returns 1]
+ok 101 - start=212 end=212
+ok 102 - start=212 end=212 (end as bytes) [returns 0]
+ok 103 - start=212 end=212 (end as bytes)
+ok 104 - start=212 end=212 ($/ as bytes) [returns 0]
+ok 105 - start=212 end=212 ($/ as bytes)
+ok 106 - start=212 end=1296 [returns 1]
+ok 107 - start=212 end=1296
+ok 108 - start=212 end=1296 (end as bytes) [returns 0]
+ok 109 - start=212 end=1296 (end as bytes)
+ok 110 - start=212 end=1296 ($/ as bytes) [returns 0]
+ok 111 - start=212 end=1296 ($/ as bytes)
+ok 112 - start=1296 end=78 [returns 1]
+ok 113 - start=1296 end=78
+ok 114 - start=1296 end=211 [returns 1]
+ok 115 - start=1296 end=211
+ok 116 - start=1296 end=211 (end as bytes) [returns 0]
+ok 117 - start=1296 end=211 (end as bytes)
+ok 118 - start=1296 end=211 ($/ as bytes) [returns 0]
+ok 119 - start=1296 end=211 ($/ as bytes)
+ok 120 - start=1296 end=212 [returns 1]
+ok 121 - start=1296 end=212
+ok 122 - start=1296 end=212 (end as bytes) [returns 0]
+ok 123 - start=1296 end=212 (end as bytes)
+ok 124 - start=1296 end=212 ($/ as bytes) [returns 0]
+ok 125 - start=1296 end=212 ($/ as bytes)
+ok 126 - start=1296 end=1296 [returns 1]
+ok 127 - start=1296 end=1296
+ok 128 - start=1296 end=1296 (end as bytes) [returns 0]
+ok 129 - start=1296 end=1296 (end as bytes)
+ok 130 - start=1296 end=1296 ($/ as bytes) [returns 0]
+ok 131 - start=1296 end=1296 ($/ as bytes)
+ok 132
+ok 133

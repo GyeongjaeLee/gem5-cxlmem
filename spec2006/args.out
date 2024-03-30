@@ -1,0 +1,20 @@
+1..14
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+# got: foo bar
+# got: foo bar
+# got: foo bar
+# got: foo bar
+# got: foo bar
+ok 9
+ok 10
+ok 11
+ok 12 - delete $_[0] : in f
+ok 13 - delete $_[0] : after f
+ok 14 - delete $_[0] : outside block

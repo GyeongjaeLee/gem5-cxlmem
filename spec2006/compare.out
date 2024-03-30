@@ -1,0 +1,11 @@
+running commands in compare.cmd 1 times
+runs started at 1562573584, 823066000, Mon Jul  8 17:13:04 2019
+run 1 started at 1562573584, 823134000, Mon Jul  8 17:13:04 2019
+child started: 0, 1562573584, 823153000, pid=8424, 'specperl /home/kalhong/benchmarks/cpu2006/bin/specdiff -m -l 10  --cw  --floatcompare /home/kalhong/benchmarks/cpu2006/benchspec/CPU2006/464.h264ref/data/test/output/foreman_test_baseline_encodelog.out foreman_test_baseline_encodelog.out'
+child finished: 0, 1562573584, 914544000, sec=0, nsec=91391000, pid=8424, rc=0
+child started: 0, 1562573584, 914571000, pid=8426, 'specperl /home/kalhong/benchmarks/cpu2006/bin/specdiff -m -l 10  --binary  --cw  --floatcompare /home/kalhong/benchmarks/cpu2006/benchspec/CPU2006/464.h264ref/data/test/output/foreman_test_baseline_leakybucketparam.cfg foreman_test_baseline_leakybucketparam.cfg'
+child finished: 0, 1562573585, 6921000, sec=0, nsec=92350000, pid=8426, rc=0
+run 1 finished at: 1562573585, 6926000, Mon Jul  8 17:13:05 2019
+run 1 elapsed time: 0, 183792000, 0.183792000
+runs finished at 1562573585, 6965000, Mon Jul  8 17:13:05 2019
+runs elapsed time: 0, 183899000, 0.183899000

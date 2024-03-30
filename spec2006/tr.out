@@ -1,0 +1,100 @@
+1..99
+ok 1 - uc
+ok 2 - lc
+ok 3 - partial uc
+ok 4 - EBCDIC discontinuity
+ok 5 - tr cancels IOK and NOK
+ok 6 - harmless if explicitly not updating
+ok 7 - harmless if implicitly not updating
+ok 8 -     no error
+ok 9 - handles UTF8
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+ok 17 - changing UTF8 chars in a UTF8 string, same length
+ok 18
+ok 19 -     more bytes
+ok 20
+ok 21 - Putting UT8 chars into a non-UTF8 string
+ok 22
+ok 23 - Removing UTF8 chars from UTF8 string
+ok 24
+ok 25 - Counting UTF8 chars in UTF8 string
+ok 26 -          non-UTF8 chars in UTF8 string
+ok 27 -          UTF8 chars in non-UTFs string
+ok 28 - tr/a-z-9//
+ok 29 - hyphens, leading
+ok 30 -    trailing
+ok 31 -    both
+ok 32
+ok 33
+ok 34
+ok 35 - reversed range check
+ok 36 - cannot update read-only var
+ok 37 - explicit read-only count
+ok 38 -     no error
+ok 39 - implicit read-only count
+ok 40 -     no error
+ok 41 - LHS of non-updating tr
+ok 42 - LHS bad on updating tr
+ok 43 - byte2byte transliteration
+ok 44
+ok 45
+ok 46
+ok 47 - byte2wide transliteration
+ok 48 -    wide2byte
+ok 49 -    wide2wide
+ok 50 - byte2wide & wide2byte
+ok 51 - all together now!
+ok 52 - transliterate and count
+ok 53
+ok 54 - translit w/complement
+ok 55
+ok 56 - translit w/deletion
+ok 57
+ok 58 - translit w/squeeze
+ok 59
+ok 60
+ok 61
+ok 62
+ok 63 - UTF range
+ok 64
+ok 65
+ok 66
+ok 67
+ok 68
+ok 69
+ok 70
+ok 71
+ok 72
+ok 73
+ok 74
+ok 75 # skip: not EBCDIC
+ok 76 # skip: not EBCDIC
+ok 77 # skip: not EBCDIC
+ok 78 # skip: not EBCDIC
+ok 79
+ok 80
+ok 81
+ok 82
+ok 83
+ok 84
+ok 85
+ok 86
+ok 87
+ok 88 - pp_trans needs to unshare shared hash keys
+ok 89 -    no error
+ok 90 - implicit count on constant
+ok 91 -    no error
+ok 92 - implicit count outside array bounds, index negative
+ok 93 -     doesn't extend the array
+ok 94 - implicit count outside array bounds, index positive
+ok 95 -     doesn't extend the array
+ok 96 - implicit count outside hash bounds
+ok 97 -     doesn't extend the hash
+ok 98 - non-modifying tr/// on a scalar ref
+ok 99 -     doesn't stringify its argument

@@ -1,0 +1,23 @@
+1..22
+ok 1
+ok 2 - :value: eq :value:
+ok 3
+ok 4
+ok 5 - :value: eq :value:
+ok 6
+ok 7
+ok 8 - :value: eq :value:
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16 - do in scalar context
+ok 17 - do in list context
+ok 18 - do in void context
+ok 19 - do on a non-existing file, first try
+ok 20 - do on a non-existing file, second try
+ok 21 - 'do 6' : No such file or directory
+ok 22 - empty do result value

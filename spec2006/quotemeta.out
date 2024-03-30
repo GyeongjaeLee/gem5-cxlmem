@@ -1,0 +1,23 @@
+1..22
+ok 1 - quotemeta string
+ok 2 - tr count non-backslashed
+ok 3 - quotemeta empty string
+ok 4 - aA\UbB\LcC\EdD
+ok 5 - aA\LbB\UcC\EdD
+ok 6 - \L\upERL
+ok 7 - \u\LpERL
+ok 8 - \U\lPerl
+ok 9 - \l\UPerl
+ok 10 - \u\LpE\Q\#X\#\ER\EL
+ok 11 - \l\UPe\Q!x!\Er\El
+ok 12 - \Q\u\LpE.X.R\EL\E.
+ok 13 - \Q\l\UPe*x*r\El\E*
+ok 14 - \U\lPerl\E\E\E\E
+ok 15 - \l\UPerl\E\E\E\E
+ok 16 - quotemeta Unicode
+ok 17 - quotemeta Unicode length
+ok 18 - \Q\E
+ok 19 - \L\E
+ok 20 - \l\E
+ok 21 - \U\E
+ok 22 - \u\E

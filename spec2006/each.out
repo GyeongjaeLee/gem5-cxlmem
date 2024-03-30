@@ -1,0 +1,42 @@
+1..39
+ok 1 - keys
+ok 2 - values
+ok 3 - each count
+ok 4 - added a key
+ok 5 - resize
+ok 6 - same size
+ok 7 - still same size
+ok 8 - size 8
+ok 9 - test scalar each
+ok 10 - test scalar keys resets iterator
+ok 11 - test iterator of each is being maintained
+ok 12 - test values keys resets iterator
+ok 13
+ok 14
+ok 15 - keys (%hash)
+ok 16 - keys (hash)
+ok 17
+ok 18
+ok 19 # DESTROY called
+ok 20
+ok 21 - Check length of "\x{1234}"
+ok 22 - Check length of "\022"
+ok 23 - Check length of "\x{123}"
+ok 24 - Check length of "\x{12345}"
+ok 25 - Check length of "\x{10fffd}"
+ok 26 - copied unicode hash keys correctly?
+ok 27 - utf8 key in bytes hash
+ok 28 - bytes key in utf8 hash
+# non-utf8
+ok 29 - if we got here change 8056 worked
+# utf8
+ok 30 - change 8056 is thanks to Inaba Hiroto
+ok 31 - check encoding on EBCDIC
+ok 32 - check length
+ok 33 - check value
+ok 34
+ok 35 - four different Unicode keys
+ok 36 - U+00FF        -> 1
+ok 37 - U+00C3 U+00BF -> 2
+ok 38 - U+0100        -> 3 
+ok 39 - U+00C4 U+0080 -> 4

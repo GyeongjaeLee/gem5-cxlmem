@@ -1,0 +1,29 @@
+1..28
+ok 1 - verifying assign
+ok 2 - basic concatenation
+ok 3 - concatenate undef, fore and aft
+ok 4 - bug id 20000819.004, back
+ok 5 - bug id 20000819.004, front
+ok 6 - bug id 20000819.004, front and back
+ok 7 - bug id 20000901.092, undef left
+ok 8 - bug id 20000901.092, undef right
+ok 9 - bug id 20001020.006, left
+ok 10 - bug id 20001020.006, right
+ok 11 - bug id 20001020.006, constant left
+ok 12 - bug id 20001020.006, constant right
+ok 13 - concat utf8 and byte
+ok 14 - right not changed after concat u+b
+ok 15 - left not changed after concat u+b
+ok 16 - concat byte and utf8
+ok 17 - right not changed after concat b+u
+ok 18 - left not changed after concat b+u
+ok 19 - ($a .= 5) . 6 - present since 5.000
+ok 20 - figures out correct target
+ok 21 - perl #26905, left eq bytes
+ok 22 - perl #26905, right eq bytes
+ok 23 - perl #26905, left ne unicode
+ok 24 - perl #26905, right ne unicode
+ok 25 - perl #26905, left,  .= vs = . in bytes
+ok 26 - perl #26905, right, .= vs = . in bytes
+ok 27 - perl #26905, left,  .= vs = . in chars
+ok 28 - perl #26905, right, .= vs = . in chars

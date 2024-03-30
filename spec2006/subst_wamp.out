@@ -1,0 +1,131 @@
+1..130
+ok 1 - :$x: eq :$x:
+ok 2 - :foo: eq :foo:
+ok 3 - :$x foo: eq :$x foo:
+ok 4 - :bcde: eq :bcde: ; :a\n$1f: eq :a\n$1f:
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+ok 17
+ok 18
+ok 19
+ok 20
+ok 21
+ok 22
+ok 23
+ok 24
+ok 25
+ok 26
+ok 27
+ok 28
+ok 29
+ok 30
+ok 31
+ok 32
+ok 33
+ok 34
+ok 35
+ok 36
+ok 37
+ok 38
+ok 39
+ok 40
+ok 41
+ok 42
+ok 43
+ok 44
+ok 45
+ok 46
+ok 47
+ok 48
+ok 49
+ok 50
+ok 51
+ok 52
+ok 53
+ok 54
+ok 55
+ok 56
+ok 57
+ok 58
+ok 59
+ok 60
+ok 61 - a match nested in the RHS of a substitution
+ok 62
+ok 63
+ok 64
+ok 65
+ok 66
+ok 67 - parsing of split subst with comment
+ok 68 - check if squashing works at the end of string
+ok 69
+ok 70
+ok 71
+ok 72
+ok 73
+ok 74
+ok 75
+ok 76
+ok 77
+ok 78
+ok 79
+ok 80
+ok 81
+ok 82
+ok 83
+ok 84
+ok 85
+ok 86
+ok 87
+ok 88 - use utf8 \w
+ok 89
+ok 90 - use utf8 RHS
+ok 91 - use utf8 LHS
+ok 92 - use utf8 LHS and RHS
+ok 93
+ok 94 - SADAHIRO utf8 s///
+ok 95
+ok 96
+ok 97
+ok 98
+ok 99
+ok 100
+ok 101
+ok 102
+ok 103
+ok 104
+ok 105
+ok 106
+ok 107
+ok 108
+ok 109 - s///: replace non-utf8 into utf8
+ok 110 - s///: replace long non-utf8 into utf8
+ok 111 - s///: replace utf8 into utf8
+ok 112 - s///: replace long utf8 into utf8
+ok 113 - s///: replace utf8 into non-utf8
+ok 114 - s///: replace long utf8 into non-utf8
+ok 115 - s///: replace non-utf8 into utf8 (utf8 pattern)
+ok 116 - s///: replace long non-utf8 into utf8 (utf8 pattern)
+ok 117 - s///: replace utf8 into utf8 (utf8 pattern)
+ok 118 - s///: replace long utf8 into utf8 (utf8 pattern)
+ok 119 - s///: replace utf8 into non-utf8 (utf8 pattern)
+ok 120 - s///: replace long utf8 into non-utf8 (utf8 pattern)
+ok 121 - s///: replace non-utf8 into non-utf8 (utf8 pattern)
+ok 122 - s///: replace long non-utf8 into non-utf8 (utf8 pattern)
+ok 123 - [perl \#7806]
+ok 124 - [perl \#7806]
+ok 125 - [perl \#19048]
+ok 126 - [perl \#17757]
+ok 127 - \#20684 s/// with (??{..}) inside
+ok 128 - \#20682 @- not visible in replacement
+ok 129 - \#20682 $^N not visible in replacement
+ok 130 - \#22351 bug with 'e' substitution modifier

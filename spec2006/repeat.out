@@ -1,0 +1,45 @@
+1..41
+ok 1 - compile time x
+ok 2 - compile time 3.1
+ok 3 - compile time 3.9
+ok 4 -   x 1
+ok 5 -   x 0
+ok 6 -   x -1
+ok 7 -   x undef
+ok 8 -   x "foo"
+ok 9 -   x "3rd"
+ok 10 -   more than one char
+ok 11 - run time x
+ok 12 -   x 3.1
+ok 13 -   x 3.9
+ok 14 -   x 1
+ok 15 -   x 0
+ok 16 -   x -3
+ok 17 -   x undef
+ok 18 -   x "foo"
+ok 19 -   x "3rd"
+ok 20 -   more than one char
+ok 21 -   more than one char
+ok 22 -   more than one char
+ok 23 - x=2
+ok 24 - x=1
+ok 25 - x=0
+ok 26 - @x x Y
+ok 27 - (@x) x Y
+ok 28 - (@x,()) x Y
+ok 29 - (@x,1) x Y
+ok 30 - () x Y
+ok 31 - (X) x Y
+ok 32 - (X,X) x Y
+ok 33 - split and x
+ok 34 - @x x -12
+ok 35 - (@x) x -14
+ok 36 - Dec C bug
+ok 37 - list repeat in scalar context
+ok 38 -   no extra values on stack
+ok 39 - stack truncation
+ok 40 - list repeat in anon array ref broken [ID 20011113.110]
+not ok 41 # TODO x operator not copying elements in 'for' list? [ID 20010809.028]
+# Failed at some file line 152
+#      got 'abcd'
+# expected 'abcdabcd'
