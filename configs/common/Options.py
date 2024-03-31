@@ -159,7 +159,7 @@ def addNoISAOptions(parser):
         help="Specify the physical memory size",
     )
     parser.add_argument(
-        "--fast_mem-size",
+        "--fast-mem-size",
         action="store",
         type=str,
         default="8GB",
