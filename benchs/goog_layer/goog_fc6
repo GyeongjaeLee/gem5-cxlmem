@@ -1,0 +1,8005 @@
+layer file : batch = 4 channel = 1000 width = 1
+batch #   1
+channel #   1
+-3.222252  
+channel #   2
+-4.137679  
+channel #   3
+-4.241842  
+channel #   4
+-3.091533  
+channel #   5
+-0.344635  
+channel #   6
+-3.772089  
+channel #   7
+-4.228880  
+channel #   8
+-1.683029  
+channel #   9
+-1.072834  
+channel #  10
+-0.682011  
+channel #  11
+-0.314358  
+channel #  12
+0.530863  
+channel #  13
+0.398369  
+channel #  14
+-0.001762  
+channel #  15
+1.399257  
+channel #  16
+-0.763391  
+channel #  17
+1.088260  
+channel #  18
+0.897441  
+channel #  19
+0.916571  
+channel #  20
+-0.819884  
+channel #  21
+-1.789327  
+channel #  22
+0.257736  
+channel #  23
+1.009846  
+channel #  24
+-1.371576  
+channel #  25
+-0.484878  
+channel #  26
+-0.517379  
+channel #  27
+-0.845193  
+channel #  28
+-0.591699  
+channel #  29
+-0.324682  
+channel #  30
+-1.943108  
+channel #  31
+-3.283084  
+channel #  32
+-2.311745  
+channel #  33
+-1.981876  
+channel #  34
+-4.060569  
+channel #  35
+-3.126314  
+channel #  36
+-1.404910  
+channel #  37
+-0.507656  
+channel #  38
+-2.795428  
+channel #  39
+-1.776816  
+channel #  40
+-2.907687  
+channel #  41
+-2.410292  
+channel #  42
+-0.526960  
+channel #  43
+0.536162  
+channel #  44
+-1.334040  
+channel #  45
+0.200083  
+channel #  46
+-2.567280  
+channel #  47
+-1.814755  
+channel #  48
+1.668423  
+channel #  49
+-4.286778  
+channel #  50
+-0.951302  
+channel #  51
+-3.472389  
+channel #  52
+-4.676600  
+channel #  53
+-0.488980  
+channel #  54
+-1.056679  
+channel #  55
+-0.628095  
+channel #  56
+-0.763946  
+channel #  57
+-0.633196  
+channel #  58
+2.438671  
+channel #  59
+-0.906983  
+channel #  60
+1.888514  
+channel #  61
+0.387337  
+channel #  62
+0.003277  
+channel #  63
+-0.694427  
+channel #  64
+2.185354  
+channel #  65
+2.575362  
+channel #  66
+0.376186  
+channel #  67
+0.863947  
+channel #  68
+1.702831  
+channel #  69
+1.099927  
+channel #  70
+-1.668801  
+channel #  71
+1.444037  
+channel #  72
+1.754362  
+channel #  73
+4.594095  
+channel #  74
+4.615939  
+channel #  75
+3.365436  
+channel #  76
+1.997736  
+channel #  77
+2.958934  
+channel #  78
+3.256679  
+channel #  79
+3.253822  
+channel #  80
+0.389493  
+channel #  81
+-1.694685  
+channel #  82
+-1.007283  
+channel #  83
+1.317468  
+channel #  84
+-0.755726  
+channel #  85
+0.742723  
+channel #  86
+-0.128515  
+channel #  87
+-0.406576  
+channel #  88
+3.386945  
+channel #  89
+2.594328  
+channel #  90
+-1.554039  
+channel #  91
+-0.979472  
+channel #  92
+-0.228589  
+channel #  93
+0.034563  
+channel #  94
+-0.442130  
+channel #  95
+-2.033382  
+channel #  96
+-1.064382  
+channel #  97
+0.724722  
+channel #  98
+-1.056714  
+channel #  99
+0.886824  
+channel # 100
+-1.579141  
+channel # 101
+-1.464182  
+channel # 102
+-1.338875  
+channel # 103
+1.000736  
+channel # 104
+0.373453  
+channel # 105
+-1.994555  
+channel # 106
+-0.882045  
+channel # 107
+-3.008490  
+channel # 108
+-2.806982  
+channel # 109
+-2.919234  
+channel # 110
+-0.590250  
+channel # 111
+-2.001998  
+channel # 112
+2.327673  
+channel # 113
+-0.277329  
+channel # 114
+-1.174303  
+channel # 115
+1.076602  
+channel # 116
+-2.674264  
+channel # 117
+0.127401  
+channel # 118
+-1.781347  
+channel # 119
+-1.282320  
+channel # 120
+-1.392654  
+channel # 121
+-2.823771  
+channel # 122
+-1.287969  
+channel # 123
+1.202489  
+channel # 124
+0.162865  
+channel # 125
+1.093370  
+channel # 126
+-1.193842  
+channel # 127
+-5.130060  
+channel # 128
+0.327868  
+channel # 129
+0.037531  
+channel # 130
+-2.437204  
+channel # 131
+-4.030105  
+channel # 132
+-0.650122  
+channel # 133
+-4.091647  
+channel # 134
+-1.831878  
+channel # 135
+-3.298612  
+channel # 136
+-2.769500  
+channel # 137
+-1.550627  
+channel # 138
+-3.534083  
+channel # 139
+-2.539051  
+channel # 140
+-1.881178  
+channel # 141
+-1.281538  
+channel # 142
+0.612137  
+channel # 143
+-2.562711  
+channel # 144
+-1.471141  
+channel # 145
+0.192055  
+channel # 146
+-1.607925  
+channel # 147
+-3.502148  
+channel # 148
+-2.968999  
+channel # 149
+-3.038308  
+channel # 150
+-2.421543  
+channel # 151
+-1.867850  
+channel # 152
+1.459809  
+channel # 153
+1.231628  
+channel # 154
+-3.161496  
+channel # 155
+-1.797338  
+channel # 156
+0.625106  
+channel # 157
+3.737615  
+channel # 158
+1.837459  
+channel # 159
+2.147972  
+channel # 160
+-3.187316  
+channel # 161
+-3.058985  
+channel # 162
+-1.009006  
+channel # 163
+0.105409  
+channel # 164
+-3.174756  
+channel # 165
+-0.482590  
+channel # 166
+-4.431990  
+channel # 167
+-0.059987  
+channel # 168
+-0.789008  
+channel # 169
+-3.749677  
+channel # 170
+-2.377847  
+channel # 171
+-0.141656  
+channel # 172
+0.124335  
+channel # 173
+-0.901804  
+channel # 174
+-0.739830  
+channel # 175
+-0.412232  
+channel # 176
+-1.392362  
+channel # 177
+-0.865770  
+channel # 178
+-1.504276  
+channel # 179
+-2.394607  
+channel # 180
+-1.244150  
+channel # 181
+-3.758056  
+channel # 182
+-4.980230  
+channel # 183
+1.088104  
+channel # 184
+-1.452021  
+channel # 185
+-1.113749  
+channel # 186
+-0.504154  
+channel # 187
+1.179672  
+channel # 188
+-1.771418  
+channel # 189
+1.641847  
+channel # 190
+-0.648633  
+channel # 191
+-2.044926  
+channel # 192
+-0.937612  
+channel # 193
+-0.243661  
+channel # 194
+-0.597931  
+channel # 195
+-4.736479  
+channel # 196
+-0.455279  
+channel # 197
+1.458052  
+channel # 198
+-1.575344  
+channel # 199
+0.572502  
+channel # 200
+0.127835  
+channel # 201
+-2.705082  
+channel # 202
+-1.545269  
+channel # 203
+-3.326223  
+channel # 204
+0.963680  
+channel # 205
+-1.973352  
+channel # 206
+-2.526801  
+channel # 207
+-2.593790  
+channel # 208
+-1.707155  
+channel # 209
+-2.689627  
+channel # 210
+-2.805923  
+channel # 211
+-1.600432  
+channel # 212
+-3.114281  
+channel # 213
+0.389495  
+channel # 214
+-0.412266  
+channel # 215
+-2.661008  
+channel # 216
+-0.856010  
+channel # 217
+-0.321665  
+channel # 218
+0.862276  
+channel # 219
+0.417376  
+channel # 220
+-0.527152  
+channel # 221
+-0.438916  
+channel # 222
+-3.698303  
+channel # 223
+0.355574  
+channel # 224
+-1.303171  
+channel # 225
+-0.219766  
+channel # 226
+-2.659075  
+channel # 227
+-3.184483  
+channel # 228
+2.421368  
+channel # 229
+-1.165474  
+channel # 230
+-2.493063  
+channel # 231
+1.002216  
+channel # 232
+1.757882  
+channel # 233
+1.514860  
+channel # 234
+-0.925593  
+channel # 235
+-0.508207  
+channel # 236
+-1.605612  
+channel # 237
+-1.060622  
+channel # 238
+-0.912423  
+channel # 239
+2.091652  
+channel # 240
+1.665382  
+channel # 241
+3.282363  
+channel # 242
+2.193877  
+channel # 243
+-1.025625  
+channel # 244
+-4.336720  
+channel # 245
+-3.085217  
+channel # 246
+-3.853352  
+channel # 247
+-2.797457  
+channel # 248
+-1.097865  
+channel # 249
+4.095481  
+channel # 250
+3.813375  
+channel # 251
+2.578311  
+channel # 252
+2.546609  
+channel # 253
+-1.326662  
+channel # 254
+0.737906  
+channel # 255
+-5.713126  
+channel # 256
+-0.492487  
+channel # 257
+0.454580  
+channel # 258
+1.444628  
+channel # 259
+-0.329030  
+channel # 260
+-0.706879  
+channel # 261
+-2.235092  
+channel # 262
+-1.872014  
+channel # 263
+-0.467748  
+channel # 264
+2.608632  
+channel # 265
+1.853940  
+channel # 266
+-1.088954  
+channel # 267
+-1.239160  
+channel # 268
+-2.613125  
+channel # 269
+-1.948191  
+channel # 270
+1.046378  
+channel # 271
+0.404894  
+channel # 272
+-0.828446  
+channel # 273
+-0.817697  
+channel # 274
+0.777843  
+channel # 275
+-0.730856  
+channel # 276
+0.726428  
+channel # 277
+-1.935805  
+channel # 278
+-1.741877  
+channel # 279
+-2.088061  
+channel # 280
+-0.609338  
+channel # 281
+1.028567  
+channel # 282
+0.209905  
+channel # 283
+1.008476  
+channel # 284
+-0.506313  
+channel # 285
+-0.968161  
+channel # 286
+1.583193  
+channel # 287
+-0.839152  
+channel # 288
+-0.825039  
+channel # 289
+-0.144995  
+channel # 290
+-0.021772  
+channel # 291
+-1.019098  
+channel # 292
+-2.375559  
+channel # 293
+-0.823365  
+channel # 294
+-0.045927  
+channel # 295
+-1.520671  
+channel # 296
+-1.218057  
+channel # 297
+-2.446818  
+channel # 298
+-1.418172  
+channel # 299
+-2.607962  
+channel # 300
+-1.334847  
+channel # 301
+3.210090  
+channel # 302
+0.422285  
+channel # 303
+1.375512  
+channel # 304
+1.562184  
+channel # 305
+-1.187243  
+channel # 306
+-0.376883  
+channel # 307
+1.365124  
+channel # 308
+-0.590266  
+channel # 309
+-0.356968  
+channel # 310
+-0.981247  
+channel # 311
+4.631363  
+channel # 312
+-0.108900  
+channel # 313
+-0.010402  
+channel # 314
+1.883684  
+channel # 315
+-1.050459  
+channel # 316
+1.671215  
+channel # 317
+1.563883  
+channel # 318
+-1.415063  
+channel # 319
+3.338868  
+channel # 320
+7.210548  
+channel # 321
+9.685609  
+channel # 322
+-0.011100  
+channel # 323
+-0.888657  
+channel # 324
+3.697758  
+channel # 325
+-0.524797  
+channel # 326
+1.237988  
+channel # 327
+2.942809  
+channel # 328
+-2.279127  
+channel # 329
+1.017027  
+channel # 330
+-3.402978  
+channel # 331
+-1.480633  
+channel # 332
+-1.545672  
+channel # 333
+-1.740310  
+channel # 334
+-0.922565  
+channel # 335
+-1.381202  
+channel # 336
+0.305136  
+channel # 337
+-2.176414  
+channel # 338
+0.246798  
+channel # 339
+0.167126  
+channel # 340
+-2.380008  
+channel # 341
+-1.135151  
+channel # 342
+-0.547719  
+channel # 343
+-1.737002  
+channel # 344
+-2.980703  
+channel # 345
+-3.705504  
+channel # 346
+1.186209  
+channel # 347
+0.675743  
+channel # 348
+-1.926542  
+channel # 349
+-0.437089  
+channel # 350
+-1.373420  
+channel # 351
+0.380196  
+channel # 352
+-4.381610  
+channel # 353
+-3.881674  
+channel # 354
+-3.284878  
+channel # 355
+-2.520440  
+channel # 356
+-0.596877  
+channel # 357
+-0.448874  
+channel # 358
+-1.300584  
+channel # 359
+0.910608  
+channel # 360
+-0.932182  
+channel # 361
+-2.386822  
+channel # 362
+-1.626937  
+channel # 363
+1.911094  
+channel # 364
+-1.362684  
+channel # 365
+0.304568  
+channel # 366
+-0.224360  
+channel # 367
+-0.290257  
+channel # 368
+0.227639  
+channel # 369
+-1.847931  
+channel # 370
+-1.359529  
+channel # 371
+-1.086566  
+channel # 372
+2.270095  
+channel # 373
+-0.363103  
+channel # 374
+1.512038  
+channel # 375
+0.667292  
+channel # 376
+0.213897  
+channel # 377
+0.097491  
+channel # 378
+-0.667443  
+channel # 379
+-0.831853  
+channel # 380
+0.236790  
+channel # 381
+2.796955  
+channel # 382
+-0.356829  
+channel # 383
+2.616973  
+channel # 384
+1.389818  
+channel # 385
+0.782726  
+channel # 386
+-0.767192  
+channel # 387
+-1.936688  
+channel # 388
+1.729799  
+channel # 389
+-1.165730  
+channel # 390
+-1.886627  
+channel # 391
+-2.372486  
+channel # 392
+-1.193680  
+channel # 393
+-1.832335  
+channel # 394
+-3.609398  
+channel # 395
+-1.577522  
+channel # 396
+-0.703188  
+channel # 397
+-0.007296  
+channel # 398
+-4.464998  
+channel # 399
+-0.165111  
+channel # 400
+-3.111936  
+channel # 401
+-2.168197  
+channel # 402
+-2.170032  
+channel # 403
+-3.851525  
+channel # 404
+-1.715799  
+channel # 405
+-3.889135  
+channel # 406
+0.251385  
+channel # 407
+-0.055362  
+channel # 408
+-1.471103  
+channel # 409
+-5.195944  
+channel # 410
+7.126617  
+channel # 411
+-4.069829  
+channel # 412
+2.058708  
+channel # 413
+0.239528  
+channel # 414
+-1.525891  
+channel # 415
+1.846110  
+channel # 416
+-0.333747  
+channel # 417
+-0.281607  
+channel # 418
+-0.561850  
+channel # 419
+2.101428  
+channel # 420
+-1.595957  
+channel # 421
+5.129148  
+channel # 422
+1.439797  
+channel # 423
+1.094161  
+channel # 424
+2.047198  
+channel # 425
+0.387577  
+channel # 426
+-0.800963  
+channel # 427
+4.152761  
+channel # 428
+-0.193709  
+channel # 429
+2.641587  
+channel # 430
+2.481202  
+channel # 431
+2.116153  
+channel # 432
+3.248533  
+channel # 433
+-1.751550  
+channel # 434
+-1.235723  
+channel # 435
+-0.635514  
+channel # 436
+-0.206182  
+channel # 437
+-2.512412  
+channel # 438
+-0.441779  
+channel # 439
+-0.819251  
+channel # 440
+0.404898  
+channel # 441
+-1.981982  
+channel # 442
+-3.178242  
+channel # 443
+1.781442  
+channel # 444
+-2.147351  
+channel # 445
+12.722279  
+channel # 446
+0.007107  
+channel # 447
+3.141798  
+channel # 448
+3.081426  
+channel # 449
+1.930807  
+channel # 450
+-4.099761  
+channel # 451
+-5.640204  
+channel # 452
+4.844989  
+channel # 453
+2.013550  
+channel # 454
+-1.541902  
+channel # 455
+-1.093165  
+channel # 456
+3.413412  
+channel # 457
+4.936845  
+channel # 458
+3.420900  
+channel # 459
+0.412057  
+channel # 460
+-0.642513  
+channel # 461
+2.926815  
+channel # 462
+-0.746015  
+channel # 463
+3.576562  
+channel # 464
+5.026229  
+channel # 465
+3.402304  
+channel # 466
+-3.101401  
+channel # 467
+-4.368239  
+channel # 468
+-1.285766  
+channel # 469
+-0.865472  
+channel # 470
+0.108522  
+channel # 471
+1.474411  
+channel # 472
+5.113669  
+channel # 473
+1.474102  
+channel # 474
+0.172835  
+channel # 475
+-1.840958  
+channel # 476
+-0.347126  
+channel # 477
+-1.513619  
+channel # 478
+0.502169  
+channel # 479
+0.513352  
+channel # 480
+3.866812  
+channel # 481
+-0.869574  
+channel # 482
+-1.735836  
+channel # 483
+-2.622323  
+channel # 484
+0.708907  
+channel # 485
+-3.899093  
+channel # 486
+-0.141548  
+channel # 487
+-2.516500  
+channel # 488
+-2.051937  
+channel # 489
+7.293617  
+channel # 490
+2.661593  
+channel # 491
+-0.378422  
+channel # 492
+2.430039  
+channel # 493
+1.588497  
+channel # 494
+-3.181728  
+channel # 495
+1.922280  
+channel # 496
+-2.787127  
+channel # 497
+-1.991639  
+channel # 498
+-0.845424  
+channel # 499
+-1.537060  
+channel # 500
+3.009092  
+channel # 501
+-0.345328  
+channel # 502
+0.370263  
+channel # 503
+2.964084  
+channel # 504
+1.469628  
+channel # 505
+0.845018  
+channel # 506
+1.578066  
+channel # 507
+3.184342  
+channel # 508
+2.336625  
+channel # 509
+-1.789288  
+channel # 510
+-2.036224  
+channel # 511
+0.149942  
+channel # 512
+-2.305371  
+channel # 513
+2.290634  
+channel # 514
+1.532376  
+channel # 515
+1.852431  
+channel # 516
+3.173650  
+channel # 517
+0.221932  
+channel # 518
+4.709283  
+channel # 519
+4.024125  
+channel # 520
+3.086415  
+channel # 521
+-2.627237  
+channel # 522
+-4.385432  
+channel # 523
+5.884271  
+channel # 524
+1.757966  
+channel # 525
+0.744149  
+channel # 526
+-1.214746  
+channel # 527
+-3.595109  
+channel # 528
+-2.313338  
+channel # 529
+-2.950213  
+channel # 530
+-2.862856  
+channel # 531
+-3.660558  
+channel # 532
+1.482463  
+channel # 533
+-1.431397  
+channel # 534
+0.666640  
+channel # 535
+-1.030835  
+channel # 536
+10.115958  
+channel # 537
+-2.119218  
+channel # 538
+2.256460  
+channel # 539
+-0.443710  
+channel # 540
+1.025755  
+channel # 541
+0.297287  
+channel # 542
+4.605918  
+channel # 543
+2.553554  
+channel # 544
+-1.953573  
+channel # 545
+-0.250056  
+channel # 546
+3.283561  
+channel # 547
+-0.153732  
+channel # 548
+-2.298096  
+channel # 549
+-3.113441  
+channel # 550
+2.083666  
+channel # 551
+-1.908452  
+channel # 552
+0.652163  
+channel # 553
+0.942156  
+channel # 554
+-0.176866  
+channel # 555
+0.232865  
+channel # 556
+0.295794  
+channel # 557
+-0.844543  
+channel # 558
+-0.123025  
+channel # 559
+1.382846  
+channel # 560
+-3.824863  
+channel # 561
+-1.727052  
+channel # 562
+-1.875630  
+channel # 563
+0.725173  
+channel # 564
+1.030505  
+channel # 565
+-2.496840  
+channel # 566
+-3.592085  
+channel # 567
+-1.357158  
+channel # 568
+-3.139798  
+channel # 569
+-0.694122  
+channel # 570
+-0.757000  
+channel # 571
+1.217065  
+channel # 572
+1.221585  
+channel # 573
+2.479905  
+channel # 574
+-1.258729  
+channel # 575
+1.768885  
+channel # 576
+-3.766424  
+channel # 577
+-1.911161  
+channel # 578
+2.710359  
+channel # 579
+0.123412  
+channel # 580
+-3.281347  
+channel # 581
+1.162148  
+channel # 582
+-4.425982  
+channel # 583
+-0.165256  
+channel # 584
+2.247261  
+channel # 585
+2.245040  
+channel # 586
+-0.879912  
+channel # 587
+0.691877  
+channel # 588
+3.583842  
+channel # 589
+4.650549  
+channel # 590
+2.535473  
+channel # 591
+-2.577347  
+channel # 592
+2.091613  
+channel # 593
+-2.536853  
+channel # 594
+1.088876  
+channel # 595
+1.496129  
+channel # 596
+-0.834606  
+channel # 597
+4.254910  
+channel # 598
+2.386841  
+channel # 599
+-4.671527  
+channel # 600
+1.915890  
+channel # 601
+6.066194  
+channel # 602
+0.124099  
+channel # 603
+-0.483883  
+channel # 604
+3.105127  
+channel # 605
+2.116935  
+channel # 606
+-4.234929  
+channel # 607
+3.129785  
+channel # 608
+-4.566210  
+channel # 609
+5.010367  
+channel # 610
+0.132763  
+channel # 611
+-1.915368  
+channel # 612
+0.991587  
+channel # 613
+4.583814  
+channel # 614
+-0.649094  
+channel # 615
+0.336714  
+channel # 616
+1.717188  
+channel # 617
+4.803364  
+channel # 618
+-1.285920  
+channel # 619
+5.767697  
+channel # 620
+0.870257  
+channel # 621
+-2.801070  
+channel # 622
+2.812833  
+channel # 623
+0.162564  
+channel # 624
+3.957478  
+channel # 625
+-2.799034  
+channel # 626
+-3.939445  
+channel # 627
+0.756581  
+channel # 628
+-1.218761  
+channel # 629
+1.014683  
+channel # 630
+-2.791053  
+channel # 631
+1.697263  
+channel # 632
+-0.074128  
+channel # 633
+-0.937380  
+channel # 634
+2.042646  
+channel # 635
+-1.029536  
+channel # 636
+11.784310  
+channel # 637
+2.937411  
+channel # 638
+-1.038205  
+channel # 639
+-0.041727  
+channel # 640
+-2.716643  
+channel # 641
+0.287771  
+channel # 642
+3.440107  
+channel # 643
+-1.579291  
+channel # 644
+3.302910  
+channel # 645
+1.314607  
+channel # 646
+5.115218  
+channel # 647
+3.399082  
+channel # 648
+-1.599860  
+channel # 649
+0.381231  
+channel # 650
+-0.139950  
+channel # 651
+2.741580  
+channel # 652
+-2.810074  
+channel # 653
+1.479283  
+channel # 654
+3.193079  
+channel # 655
+-0.685237  
+channel # 656
+2.280756  
+channel # 657
+-0.406333  
+channel # 658
+-0.316655  
+channel # 659
+-0.092705  
+channel # 660
+0.165947  
+channel # 661
+-0.895463  
+channel # 662
+1.461616  
+channel # 663
+0.294843  
+channel # 664
+-0.270661  
+channel # 665
+0.374078  
+channel # 666
+7.188193  
+channel # 667
+4.628126  
+channel # 668
+2.385437  
+channel # 669
+0.471632  
+channel # 670
+-2.555197  
+channel # 671
+1.344141  
+channel # 672
+17.719063  
+channel # 673
+1.889716  
+channel # 674
+-2.348136  
+channel # 675
+0.809068  
+channel # 676
+-5.443319  
+channel # 677
+1.750634  
+channel # 678
+5.224107  
+channel # 679
+1.130430  
+channel # 680
+4.199092  
+channel # 681
+-0.689916  
+channel # 682
+-0.426309  
+channel # 683
+3.008897  
+channel # 684
+1.131878  
+channel # 685
+2.691109  
+channel # 686
+-1.948956  
+channel # 687
+-0.033491  
+channel # 688
+-6.125955  
+channel # 689
+-1.189780  
+channel # 690
+-1.616779  
+channel # 691
+3.324007  
+channel # 692
+1.015978  
+channel # 693
+0.380020  
+channel # 694
+0.022215  
+channel # 695
+-3.085896  
+channel # 696
+5.202405  
+channel # 697
+0.970264  
+channel # 698
+0.347019  
+channel # 699
+-0.763260  
+channel # 700
+-0.474244  
+channel # 701
+2.436431  
+channel # 702
+0.912655  
+channel # 703
+-1.078538  
+channel # 704
+0.550863  
+channel # 705
+4.054109  
+channel # 706
+-4.541022  
+channel # 707
+-0.700569  
+channel # 708
+0.385570  
+channel # 709
+3.610955  
+channel # 710
+2.827229  
+channel # 711
+2.897190  
+channel # 712
+-0.745693  
+channel # 713
+2.662383  
+channel # 714
+-3.752477  
+channel # 715
+-0.174407  
+channel # 716
+-0.710484  
+channel # 717
+3.505831  
+channel # 718
+-5.779834  
+channel # 719
+-0.681705  
+channel # 720
+-1.903103  
+channel # 721
+-3.406862  
+channel # 722
+-0.321937  
+channel # 723
+-1.208075  
+channel # 724
+1.070842  
+channel # 725
+0.785836  
+channel # 726
+2.392582  
+channel # 727
+-3.818639  
+channel # 728
+-0.182282  
+channel # 729
+2.921759  
+channel # 730
+-0.230518  
+channel # 731
+4.458278  
+channel # 732
+1.146033  
+channel # 733
+-3.252769  
+channel # 734
+1.829688  
+channel # 735
+-0.700171  
+channel # 736
+-2.581780  
+channel # 737
+-1.735904  
+channel # 738
+-0.622333  
+channel # 739
+1.124703  
+channel # 740
+1.094001  
+channel # 741
+-0.426996  
+channel # 742
+-1.070938  
+channel # 743
+-1.838846  
+channel # 744
+-1.220284  
+channel # 745
+-0.239487  
+channel # 746
+1.239272  
+channel # 747
+2.705932  
+channel # 748
+0.601549  
+channel # 749
+2.430029  
+channel # 750
+2.342817  
+channel # 751
+-0.869533  
+channel # 752
+-0.164211  
+channel # 753
+4.989880  
+channel # 754
+-1.517578  
+channel # 755
+0.007122  
+channel # 756
+4.546276  
+channel # 757
+0.215739  
+channel # 758
+-2.434320  
+channel # 759
+7.327629  
+channel # 760
+-0.005446  
+channel # 761
+-0.749784  
+channel # 762
+-2.732847  
+channel # 763
+-1.681699  
+channel # 764
+-0.921890  
+channel # 765
+-1.290878  
+channel # 766
+0.151252  
+channel # 767
+-2.673359  
+channel # 768
+4.193619  
+channel # 769
+1.319681  
+channel # 770
+5.183161  
+channel # 771
+1.192199  
+channel # 772
+0.033885  
+channel # 773
+3.729731  
+channel # 774
+-1.682269  
+channel # 775
+3.317198  
+channel # 776
+2.096577  
+channel # 777
+1.525861  
+channel # 778
+4.125817  
+channel # 779
+6.792444  
+channel # 780
+-0.067800  
+channel # 781
+2.561713  
+channel # 782
+-1.417972  
+channel # 783
+-1.700050  
+channel # 784
+3.953643  
+channel # 785
+0.356860  
+channel # 786
+-2.748418  
+channel # 787
+-0.486207  
+channel # 788
+3.115916  
+channel # 789
+-2.542800  
+channel # 790
+-1.932895  
+channel # 791
+2.941377  
+channel # 792
+0.993328  
+channel # 793
+3.026479  
+channel # 794
+0.454112  
+channel # 795
+-0.257737  
+channel # 796
+1.485461  
+channel # 797
+-0.363670  
+channel # 798
+3.649024  
+channel # 799
+3.503222  
+channel # 800
+-3.759189  
+channel # 801
+-1.805929  
+channel # 802
+1.342298  
+channel # 803
+-3.473257  
+channel # 804
+-4.159813  
+channel # 805
+0.103457  
+channel # 806
+0.462515  
+channel # 807
+1.065436  
+channel # 808
+4.932453  
+channel # 809
+2.922816  
+channel # 810
+-1.262913  
+channel # 811
+-3.811182  
+channel # 812
+-5.437430  
+channel # 813
+-2.174078  
+channel # 814
+0.375405  
+channel # 815
+-3.171755  
+channel # 816
+3.093405  
+channel # 817
+7.425303  
+channel # 818
+-2.352992  
+channel # 819
+3.128092  
+channel # 820
+-0.490391  
+channel # 821
+-3.661134  
+channel # 822
+0.297760  
+channel # 823
+0.677096  
+channel # 824
+2.857451  
+channel # 825
+1.608943  
+channel # 826
+-0.364916  
+channel # 827
+6.735741  
+channel # 828
+-0.613182  
+channel # 829
+4.593896  
+channel # 830
+-0.783954  
+channel # 831
+3.328083  
+channel # 832
+-1.652140  
+channel # 833
+0.986640  
+channel # 834
+-0.357796  
+channel # 835
+1.823673  
+channel # 836
+7.494334  
+channel # 837
+3.129673  
+channel # 838
+3.330863  
+channel # 839
+-1.647421  
+channel # 840
+-0.884617  
+channel # 841
+7.950958  
+channel # 842
+-0.843968  
+channel # 843
+2.213799  
+channel # 844
+2.888248  
+channel # 845
+-1.798670  
+channel # 846
+2.197406  
+channel # 847
+-0.651228  
+channel # 848
+-2.772125  
+channel # 849
+-0.481931  
+channel # 850
+-0.364095  
+channel # 851
+-0.651193  
+channel # 852
+-2.032920  
+channel # 853
+4.198293  
+channel # 854
+0.220991  
+channel # 855
+-5.138723  
+channel # 856
+4.211562  
+channel # 857
+3.629431  
+channel # 858
+-3.420857  
+channel # 859
+-1.648630  
+channel # 860
+-1.730258  
+channel # 861
+0.982994  
+channel # 862
+3.633363  
+channel # 863
+2.442745  
+channel # 864
+1.472784  
+channel # 865
+-0.561791  
+channel # 866
+2.077313  
+channel # 867
+1.936202  
+channel # 868
+-3.988020  
+channel # 869
+3.062371  
+channel # 870
+-0.755766  
+channel # 871
+9.404085  
+channel # 872
+-0.851301  
+channel # 873
+5.784564  
+channel # 874
+1.871789  
+channel # 875
+-2.877272  
+channel # 876
+-1.536246  
+channel # 877
+-0.417035  
+channel # 878
+0.138332  
+channel # 879
+-3.515585  
+channel # 880
+3.914897  
+channel # 881
+13.245364  
+channel # 882
+-1.486055  
+channel # 883
+-0.383573  
+channel # 884
+2.519580  
+channel # 885
+0.404072  
+channel # 886
+-0.944038  
+channel # 887
+-0.667276  
+channel # 888
+-3.105903  
+channel # 889
+-1.689963  
+channel # 890
+-3.408228  
+channel # 891
+-0.785524  
+channel # 892
+-0.182996  
+channel # 893
+4.397234  
+channel # 894
+1.690133  
+channel # 895
+-1.598310  
+channel # 896
+-1.683089  
+channel # 897
+2.012852  
+channel # 898
+-1.108400  
+channel # 899
+2.767661  
+channel # 900
+0.047002  
+channel # 901
+1.232662  
+channel # 902
+-4.620417  
+channel # 903
+5.628287  
+channel # 904
+1.772585  
+channel # 905
+-0.544412  
+channel # 906
+-3.914638  
+channel # 907
+-1.683615  
+channel # 908
+0.821063  
+channel # 909
+-2.009931  
+channel # 910
+-0.632512  
+channel # 911
+1.582692  
+channel # 912
+0.945041  
+channel # 913
+0.751219  
+channel # 914
+0.378338  
+channel # 915
+-1.984671  
+channel # 916
+-1.387303  
+channel # 917
+0.513667  
+channel # 918
+-0.160808  
+channel # 919
+0.697793  
+channel # 920
+2.576436  
+channel # 921
+-1.303879  
+channel # 922
+-1.201833  
+channel # 923
+-1.040002  
+channel # 924
+2.447993  
+channel # 925
+1.829535  
+channel # 926
+-3.632282  
+channel # 927
+-3.703604  
+channel # 928
+0.133096  
+channel # 929
+1.544294  
+channel # 930
+0.882545  
+channel # 931
+0.654069  
+channel # 932
+-2.530526  
+channel # 933
+-2.220964  
+channel # 934
+-4.570874  
+channel # 935
+-2.496068  
+channel # 936
+-0.056758  
+channel # 937
+1.630326  
+channel # 938
+0.158394  
+channel # 939
+1.178294  
+channel # 940
+-2.035936  
+channel # 941
+-0.934793  
+channel # 942
+0.024418  
+channel # 943
+-1.581086  
+channel # 944
+0.087115  
+channel # 945
+-0.043989  
+channel # 946
+-2.785928  
+channel # 947
+-0.472916  
+channel # 948
+-0.330966  
+channel # 949
+1.676906  
+channel # 950
+0.889216  
+channel # 951
+1.264969  
+channel # 952
+3.466339  
+channel # 953
+0.513860  
+channel # 954
+4.428151  
+channel # 955
+4.064215  
+channel # 956
+-0.224273  
+channel # 957
+2.947478  
+channel # 958
+2.369682  
+channel # 959
+1.431573  
+channel # 960
+-0.566931  
+channel # 961
+-0.602676  
+channel # 962
+-3.810070  
+channel # 963
+-2.348058  
+channel # 964
+-1.956190  
+channel # 965
+-2.568356  
+channel # 966
+-2.905909  
+channel # 967
+-1.801326  
+channel # 968
+-1.831005  
+channel # 969
+1.080445  
+channel # 970
+-0.794826  
+channel # 971
+4.705724  
+channel # 972
+1.010413  
+channel # 973
+2.970579  
+channel # 974
+-1.001432  
+channel # 975
+-2.793366  
+channel # 976
+0.321799  
+channel # 977
+-1.118917  
+channel # 978
+0.169111  
+channel # 979
+3.560535  
+channel # 980
+0.486559  
+channel # 981
+-0.277049  
+channel # 982
+-0.107630  
+channel # 983
+-2.219976  
+channel # 984
+-0.943164  
+channel # 985
+2.774139  
+channel # 986
+-1.011980  
+channel # 987
+-2.278466  
+channel # 988
+3.216570  
+channel # 989
+1.276364  
+channel # 990
+-0.391064  
+channel # 991
+0.400111  
+channel # 992
+-0.967538  
+channel # 993
+0.459013  
+channel # 994
+-1.975374  
+channel # 995
+0.876248  
+channel # 996
+-1.377556  
+channel # 997
+1.335918  
+channel # 998
+-0.372540  
+channel # 999
+2.732504  
+channel #1000
+-0.656636  
+batch #   2
+channel #   1
+-0.824592  
+channel #   2
+0.479092  
+channel #   3
+-2.236722  
+channel #   4
+-2.190930  
+channel #   5
+-1.429402  
+channel #   6
+2.701718  
+channel #   7
+0.125629  
+channel #   8
+-0.513751  
+channel #   9
+3.583833  
+channel #  10
+-2.294382  
+channel #  11
+0.793604  
+channel #  12
+-0.222054  
+channel #  13
+0.530070  
+channel #  14
+2.310339  
+channel #  15
+0.127654  
+channel #  16
+0.409766  
+channel #  17
+3.457014  
+channel #  18
+3.545761  
+channel #  19
+0.054058  
+channel #  20
+1.466439  
+channel #  21
+-1.011426  
+channel #  22
+1.606821  
+channel #  23
+-1.015112  
+channel #  24
+-0.095584  
+channel #  25
+-1.058812  
+channel #  26
+-3.385104  
+channel #  27
+-3.842646  
+channel #  28
+-2.450172  
+channel #  29
+-2.619953  
+channel #  30
+-1.410981  
+channel #  31
+-4.377176  
+channel #  32
+-2.617072  
+channel #  33
+-2.442222  
+channel #  34
+-2.211208  
+channel #  35
+-1.240563  
+channel #  36
+-3.456495  
+channel #  37
+-0.769351  
+channel #  38
+-2.530893  
+channel #  39
+-2.911244  
+channel #  40
+-3.342215  
+channel #  41
+-3.736886  
+channel #  42
+-2.490522  
+channel #  43
+-3.953285  
+channel #  44
+-1.036414  
+channel #  45
+-2.682139  
+channel #  46
+-2.816042  
+channel #  47
+-2.831815  
+channel #  48
+-2.073216  
+channel #  49
+-4.699679  
+channel #  50
+-4.653927  
+channel #  51
+-2.668416  
+channel #  52
+-1.240830  
+channel #  53
+-2.741734  
+channel #  54
+-1.880378  
+channel #  55
+-1.514835  
+channel #  56
+-2.204568  
+channel #  57
+-1.948441  
+channel #  58
+-3.116374  
+channel #  59
+-2.506647  
+channel #  60
+0.121237  
+channel #  61
+-0.697998  
+channel #  62
+-2.854552  
+channel #  63
+-1.597787  
+channel #  64
+-1.745805  
+channel #  65
+-1.047460  
+channel #  66
+-2.483917  
+channel #  67
+-0.759904  
+channel #  68
+-2.228287  
+channel #  69
+-2.091718  
+channel #  70
+-2.116341  
+channel #  71
+-1.214908  
+channel #  72
+-3.221717  
+channel #  73
+-1.997930  
+channel #  74
+-2.527393  
+channel #  75
+-4.331813  
+channel #  76
+-1.042065  
+channel #  77
+-2.732374  
+channel #  78
+-2.960532  
+channel #  79
+1.070610  
+channel #  80
+-2.309216  
+channel #  81
+-1.208229  
+channel #  82
+1.556887  
+channel #  83
+2.406307  
+channel #  84
+1.214141  
+channel #  85
+-1.219247  
+channel #  86
+2.473917  
+channel #  87
+1.231056  
+channel #  88
+0.832423  
+channel #  89
+-0.930386  
+channel #  90
+-0.093475  
+channel #  91
+-1.376186  
+channel #  92
+-0.431171  
+channel #  93
+-1.573629  
+channel #  94
+-2.153660  
+channel #  95
+-0.726936  
+channel #  96
+-1.159657  
+channel #  97
+-0.601676  
+channel #  98
+-2.681426  
+channel #  99
+-0.596413  
+channel # 100
+0.278740  
+channel # 101
+-3.696627  
+channel # 102
+-6.183084  
+channel # 103
+-0.340446  
+channel # 104
+0.090933  
+channel # 105
+1.483938  
+channel # 106
+-2.773381  
+channel # 107
+-0.867505  
+channel # 108
+-0.191838  
+channel # 109
+-0.293931  
+channel # 110
+-0.225938  
+channel # 111
+-1.897414  
+channel # 112
+-1.804016  
+channel # 113
+-0.031757  
+channel # 114
+-1.465450  
+channel # 115
+-1.925622  
+channel # 116
+-2.226352  
+channel # 117
+-2.700875  
+channel # 118
+2.040024  
+channel # 119
+-0.135170  
+channel # 120
+-3.572587  
+channel # 121
+-3.300442  
+channel # 122
+-1.854227  
+channel # 123
+-2.826075  
+channel # 124
+-3.447788  
+channel # 125
+-0.672649  
+channel # 126
+-3.237911  
+channel # 127
+-1.174516  
+channel # 128
+-3.064786  
+channel # 129
+-4.209298  
+channel # 130
+-2.365617  
+channel # 131
+-1.776392  
+channel # 132
+-1.520033  
+channel # 133
+0.391210  
+channel # 134
+-0.998711  
+channel # 135
+-2.374048  
+channel # 136
+-2.328262  
+channel # 137
+-0.364883  
+channel # 138
+-0.906741  
+channel # 139
+-0.015303  
+channel # 140
+-3.170580  
+channel # 141
+-1.720941  
+channel # 142
+-0.899592  
+channel # 143
+-1.899392  
+channel # 144
+-2.607400  
+channel # 145
+-3.602681  
+channel # 146
+0.884629  
+channel # 147
+-0.976066  
+channel # 148
+-2.165966  
+channel # 149
+-0.853105  
+channel # 150
+-1.321407  
+channel # 151
+-2.094601  
+channel # 152
+4.986537  
+channel # 153
+4.473528  
+channel # 154
+2.615282  
+channel # 155
+5.952265  
+channel # 156
+1.756672  
+channel # 157
+0.082068  
+channel # 158
+4.764837  
+channel # 159
+2.410871  
+channel # 160
+-3.331830  
+channel # 161
+-2.536673  
+channel # 162
+-2.218199  
+channel # 163
+-2.828752  
+channel # 164
+-2.302670  
+channel # 165
+-3.332817  
+channel # 166
+-3.791864  
+channel # 167
+-4.684062  
+channel # 168
+-5.566914  
+channel # 169
+-1.863325  
+channel # 170
+-0.110434  
+channel # 171
+-3.798940  
+channel # 172
+-1.188631  
+channel # 173
+-2.605358  
+channel # 174
+-0.655964  
+channel # 175
+1.836934  
+channel # 176
+-2.402533  
+channel # 177
+-4.865058  
+channel # 178
+-5.293881  
+channel # 179
+-2.168057  
+channel # 180
+-3.772677  
+channel # 181
+-4.067757  
+channel # 182
+-3.131325  
+channel # 183
+-1.945136  
+channel # 184
+-2.763990  
+channel # 185
+-2.206130  
+channel # 186
+0.155650  
+channel # 187
+2.580417  
+channel # 188
+1.218351  
+channel # 189
+0.448168  
+channel # 190
+-3.391800  
+channel # 191
+-0.444799  
+channel # 192
+-1.929285  
+channel # 193
+1.974684  
+channel # 194
+3.212583  
+channel # 195
+-1.947974  
+channel # 196
+-0.032570  
+channel # 197
+-1.420565  
+channel # 198
+-3.055926  
+channel # 199
+-1.714326  
+channel # 200
+1.005700  
+channel # 201
+-0.654820  
+channel # 202
+-1.222302  
+channel # 203
+-2.079190  
+channel # 204
+2.550705  
+channel # 205
+1.996790  
+channel # 206
+-2.363343  
+channel # 207
+-4.149908  
+channel # 208
+1.902621  
+channel # 209
+0.064797  
+channel # 210
+0.208806  
+channel # 211
+-3.844135  
+channel # 212
+-1.406385  
+channel # 213
+-1.543083  
+channel # 214
+-3.313547  
+channel # 215
+-3.595318  
+channel # 216
+-0.410305  
+channel # 217
+0.389965  
+channel # 218
+-1.463986  
+channel # 219
+-1.034065  
+channel # 220
+-0.334161  
+channel # 221
+-0.109871  
+channel # 222
+-5.159719  
+channel # 223
+0.641232  
+channel # 224
+2.646408  
+channel # 225
+-1.002285  
+channel # 226
+-0.157986  
+channel # 227
+-0.423047  
+channel # 228
+0.669171  
+channel # 229
+-2.636178  
+channel # 230
+0.500952  
+channel # 231
+3.311049  
+channel # 232
+2.616398  
+channel # 233
+0.433825  
+channel # 234
+-2.907053  
+channel # 235
+-2.533128  
+channel # 236
+0.670620  
+channel # 237
+-0.971129  
+channel # 238
+-1.645637  
+channel # 239
+-3.615591  
+channel # 240
+-0.552578  
+channel # 241
+-1.922049  
+channel # 242
+-3.674547  
+channel # 243
+-2.934440  
+channel # 244
+-1.786840  
+channel # 245
+-2.982177  
+channel # 246
+0.466695  
+channel # 247
+-1.373002  
+channel # 248
+-0.745551  
+channel # 249
+3.469834  
+channel # 250
+2.322879  
+channel # 251
+2.889157  
+channel # 252
+-1.475302  
+channel # 253
+1.248564  
+channel # 254
+-0.094043  
+channel # 255
+-0.414175  
+channel # 256
+-2.118762  
+channel # 257
+-2.438781  
+channel # 258
+2.676384  
+channel # 259
+2.756363  
+channel # 260
+6.339156  
+channel # 261
+2.932678  
+channel # 262
+2.881154  
+channel # 263
+0.977861  
+channel # 264
+4.536776  
+channel # 265
+2.500174  
+channel # 266
+1.700698  
+channel # 267
+-1.175235  
+channel # 268
+-1.426190  
+channel # 269
+-1.468974  
+channel # 270
+-1.016127  
+channel # 271
+1.416423  
+channel # 272
+-0.744411  
+channel # 273
+0.463140  
+channel # 274
+-0.848282  
+channel # 275
+0.930413  
+channel # 276
+-4.145056  
+channel # 277
+-1.961835  
+channel # 278
+2.943292  
+channel # 279
+1.344039  
+channel # 280
+3.100818  
+channel # 281
+2.930880  
+channel # 282
+9.959684  
+channel # 283
+8.076902  
+channel # 284
+9.812896  
+channel # 285
+8.757969  
+channel # 286
+8.659553  
+channel # 287
+0.478949  
+channel # 288
+10.657376  
+channel # 289
+-1.353052  
+channel # 290
+-0.558619  
+channel # 291
+-0.972757  
+channel # 292
+-2.269747  
+channel # 293
+1.039211  
+channel # 294
+-0.152964  
+channel # 295
+-5.671268  
+channel # 296
+-4.345670  
+channel # 297
+-1.076853  
+channel # 298
+-6.046940  
+channel # 299
+-1.890571  
+channel # 300
+1.045472  
+channel # 301
+-3.139105  
+channel # 302
+-1.140555  
+channel # 303
+-2.039291  
+channel # 304
+-3.049672  
+channel # 305
+-4.058754  
+channel # 306
+-3.017112  
+channel # 307
+-0.429868  
+channel # 308
+-3.914733  
+channel # 309
+-2.212065  
+channel # 310
+-2.114486  
+channel # 311
+-0.724827  
+channel # 312
+-3.994311  
+channel # 313
+-2.855603  
+channel # 314
+-1.836536  
+channel # 315
+-0.722593  
+channel # 316
+-3.377789  
+channel # 317
+-2.622730  
+channel # 318
+-2.246949  
+channel # 319
+-2.635901  
+channel # 320
+-1.699404  
+channel # 321
+-2.027923  
+channel # 322
+-3.343553  
+channel # 323
+-0.303858  
+channel # 324
+-1.609560  
+channel # 325
+0.420236  
+channel # 326
+-0.243408  
+channel # 327
+-0.173396  
+channel # 328
+-0.852710  
+channel # 329
+-0.929432  
+channel # 330
+-2.094392  
+channel # 331
+3.411296  
+channel # 332
+5.278302  
+channel # 333
+7.807995  
+channel # 334
+4.411601  
+channel # 335
+-1.682175  
+channel # 336
+0.834833  
+channel # 337
+-1.349665  
+channel # 338
+-0.889070  
+channel # 339
+1.830636  
+channel # 340
+-3.239872  
+channel # 341
+-1.532610  
+channel # 342
+-3.005499  
+channel # 343
+-4.247669  
+channel # 344
+-4.003134  
+channel # 345
+-4.062892  
+channel # 346
+-3.659250  
+channel # 347
+-5.583552  
+channel # 348
+-4.057309  
+channel # 349
+-2.617874  
+channel # 350
+-3.495858  
+channel # 351
+-1.129439  
+channel # 352
+-1.896158  
+channel # 353
+-2.302716  
+channel # 354
+-0.248725  
+channel # 355
+-4.811483  
+channel # 356
+-1.088279  
+channel # 357
+3.858090  
+channel # 358
+1.187269  
+channel # 359
+2.149381  
+channel # 360
+3.711203  
+channel # 361
+-2.171391  
+channel # 362
+2.144786  
+channel # 363
+-0.343419  
+channel # 364
+-0.143758  
+channel # 365
+-1.946232  
+channel # 366
+-2.374077  
+channel # 367
+-4.680317  
+channel # 368
+-2.997360  
+channel # 369
+-1.015061  
+channel # 370
+-1.683790  
+channel # 371
+-1.020725  
+channel # 372
+1.033777  
+channel # 373
+-4.098945  
+channel # 374
+-0.959238  
+channel # 375
+-1.176311  
+channel # 376
+-4.348875  
+channel # 377
+-1.561354  
+channel # 378
+1.606425  
+channel # 379
+0.654627  
+channel # 380
+-2.731945  
+channel # 381
+0.532576  
+channel # 382
+-2.979964  
+channel # 383
+0.694467  
+channel # 384
+0.626034  
+channel # 385
+0.750827  
+channel # 386
+-5.885110  
+channel # 387
+-5.863008  
+channel # 388
+-1.366120  
+channel # 389
+-2.998480  
+channel # 390
+-0.557108  
+channel # 391
+-1.340503  
+channel # 392
+-0.756968  
+channel # 393
+-1.564804  
+channel # 394
+-1.400860  
+channel # 395
+-5.094636  
+channel # 396
+-2.249790  
+channel # 397
+-2.182332  
+channel # 398
+-1.222273  
+channel # 399
+0.453459  
+channel # 400
+0.188486  
+channel # 401
+0.770401  
+channel # 402
+-1.750936  
+channel # 403
+0.081245  
+channel # 404
+-5.246850  
+channel # 405
+-1.683206  
+channel # 406
+0.310035  
+channel # 407
+1.845788  
+channel # 408
+-3.032411  
+channel # 409
+-5.136742  
+channel # 410
+0.518737  
+channel # 411
+-2.637801  
+channel # 412
+1.669591  
+channel # 413
+3.982582  
+channel # 414
+-3.130561  
+channel # 415
+0.790096  
+channel # 416
+0.732926  
+channel # 417
+1.036965  
+channel # 418
+0.458679  
+channel # 419
+1.946682  
+channel # 420
+3.841015  
+channel # 421
+1.124444  
+channel # 422
+-0.604640  
+channel # 423
+1.517072  
+channel # 424
+0.573059  
+channel # 425
+0.542061  
+channel # 426
+-2.292395  
+channel # 427
+1.315270  
+channel # 428
+0.885383  
+channel # 429
+0.738026  
+channel # 430
+-0.221668  
+channel # 431
+0.437176  
+channel # 432
+2.573249  
+channel # 433
+0.220019  
+channel # 434
+0.888971  
+channel # 435
+5.422345  
+channel # 436
+7.069577  
+channel # 437
+-1.229843  
+channel # 438
+-2.187948  
+channel # 439
+0.826110  
+channel # 440
+-1.754185  
+channel # 441
+-2.088467  
+channel # 442
+0.039380  
+channel # 443
+-0.698434  
+channel # 444
+4.294026  
+channel # 445
+-3.190750  
+channel # 446
+-0.523309  
+channel # 447
+3.050421  
+channel # 448
+-1.504733  
+channel # 449
+-0.416154  
+channel # 450
+-2.827462  
+channel # 451
+0.184923  
+channel # 452
+1.808907  
+channel # 453
+4.011140  
+channel # 454
+4.247950  
+channel # 455
+2.151259  
+channel # 456
+1.862668  
+channel # 457
+-0.123623  
+channel # 458
+6.775569  
+channel # 459
+-0.713748  
+channel # 460
+1.030895  
+channel # 461
+-2.749920  
+channel # 462
+1.697031  
+channel # 463
+2.710948  
+channel # 464
+5.511299  
+channel # 465
+-0.129486  
+channel # 466
+-0.678239  
+channel # 467
+-0.283127  
+channel # 468
+-2.702480  
+channel # 469
+-1.375719  
+channel # 470
+3.739227  
+channel # 471
+3.894059  
+channel # 472
+-4.436224  
+channel # 473
+-2.968789  
+channel # 474
+4.750816  
+channel # 475
+-2.264213  
+channel # 476
+0.820510  
+channel # 477
+-0.563996  
+channel # 478
+-0.173370  
+channel # 479
+8.734436  
+channel # 480
+0.153505  
+channel # 481
+0.835715  
+channel # 482
+0.166407  
+channel # 483
+0.184999  
+channel # 484
+-1.871207  
+channel # 485
+-1.528309  
+channel # 486
+0.823036  
+channel # 487
+-2.018769  
+channel # 488
+2.109245  
+channel # 489
+0.192755  
+channel # 490
+-0.912591  
+channel # 491
+-0.787360  
+channel # 492
+-1.013958  
+channel # 493
+1.160410  
+channel # 494
+2.140045  
+channel # 495
+-0.355465  
+channel # 496
+0.958280  
+channel # 497
+1.014981  
+channel # 498
+0.112676  
+channel # 499
+0.186865  
+channel # 500
+2.466766  
+channel # 501
+-3.617455  
+channel # 502
+0.410158  
+channel # 503
+0.333328  
+channel # 504
+2.001509  
+channel # 505
+3.973037  
+channel # 506
+2.456111  
+channel # 507
+1.179784  
+channel # 508
+1.889884  
+channel # 509
+6.469177  
+channel # 510
+-0.437629  
+channel # 511
+-2.223339  
+channel # 512
+-1.262956  
+channel # 513
+0.565318  
+channel # 514
+-0.010795  
+channel # 515
+-0.537909  
+channel # 516
+2.795280  
+channel # 517
+2.193319  
+channel # 518
+-0.864431  
+channel # 519
+0.512650  
+channel # 520
+4.363342  
+channel # 521
+2.546222  
+channel # 522
+3.592924  
+channel # 523
+0.061446  
+channel # 524
+2.116997  
+channel # 525
+-2.837371  
+channel # 526
+-1.789028  
+channel # 527
+3.440602  
+channel # 528
+2.628334  
+channel # 529
+-1.835580  
+channel # 530
+2.752567  
+channel # 531
+0.921108  
+channel # 532
+-2.717010  
+channel # 533
+2.596910  
+channel # 534
+1.199360  
+channel # 535
+6.191286  
+channel # 536
+-1.651456  
+channel # 537
+-1.308246  
+channel # 538
+-2.018287  
+channel # 539
+-3.298880  
+channel # 540
+5.858006  
+channel # 541
+-2.290189  
+channel # 542
+0.380695  
+channel # 543
+2.305837  
+channel # 544
+3.137716  
+channel # 545
+-0.924742  
+channel # 546
+2.608289  
+channel # 547
+-1.733927  
+channel # 548
+-3.319760  
+channel # 549
+-0.352301  
+channel # 550
+3.705631  
+channel # 551
+1.430464  
+channel # 552
+3.915694  
+channel # 553
+5.645251  
+channel # 554
+3.802720  
+channel # 555
+-2.751903  
+channel # 556
+-2.981521  
+channel # 557
+2.141338  
+channel # 558
+2.213510  
+channel # 559
+-1.868520  
+channel # 560
+0.808562  
+channel # 561
+-1.803836  
+channel # 562
+-0.583428  
+channel # 563
+-2.971666  
+channel # 564
+1.383364  
+channel # 565
+1.202547  
+channel # 566
+-2.208549  
+channel # 567
+-0.783670  
+channel # 568
+3.530373  
+channel # 569
+2.867557  
+channel # 570
+-3.324629  
+channel # 571
+1.880618  
+channel # 572
+-4.752389  
+channel # 573
+3.313964  
+channel # 574
+-2.886981  
+channel # 575
+3.338012  
+channel # 576
+-1.057844  
+channel # 577
+-2.765311  
+channel # 578
+1.915603  
+channel # 579
+1.526124  
+channel # 580
+0.094893  
+channel # 581
+-1.312867  
+channel # 582
+-1.422239  
+channel # 583
+-0.010134  
+channel # 584
+1.035163  
+channel # 585
+2.292017  
+channel # 586
+2.003907  
+channel # 587
+-1.224631  
+channel # 588
+3.419827  
+channel # 589
+5.257417  
+channel # 590
+3.887638  
+channel # 591
+-0.624395  
+channel # 592
+3.993600  
+channel # 593
+-0.137757  
+channel # 594
+1.642776  
+channel # 595
+-1.402292  
+channel # 596
+-3.581430  
+channel # 597
+0.101157  
+channel # 598
+-2.853695  
+channel # 599
+0.630811  
+channel # 600
+-1.455578  
+channel # 601
+3.801531  
+channel # 602
+1.039968  
+channel # 603
+0.740330  
+channel # 604
+-3.466427  
+channel # 605
+0.155837  
+channel # 606
+-0.155673  
+channel # 607
+3.954782  
+channel # 608
+-1.051346  
+channel # 609
+2.155194  
+channel # 610
+-4.986159  
+channel # 611
+0.245743  
+channel # 612
+3.062478  
+channel # 613
+-2.466624  
+channel # 614
+0.943689  
+channel # 615
+-0.173515  
+channel # 616
+0.812115  
+channel # 617
+-0.172053  
+channel # 618
+3.912790  
+channel # 619
+3.931835  
+channel # 620
+2.589324  
+channel # 621
+4.626697  
+channel # 622
+-0.802435  
+channel # 623
+3.567697  
+channel # 624
+1.830132  
+channel # 625
+0.530686  
+channel # 626
+-1.393210  
+channel # 627
+1.346145  
+channel # 628
+-0.879676  
+channel # 629
+-1.561838  
+channel # 630
+0.801889  
+channel # 631
+-0.331447  
+channel # 632
+4.133173  
+channel # 633
+1.059312  
+channel # 634
+2.369275  
+channel # 635
+-2.242363  
+channel # 636
+0.595650  
+channel # 637
+2.187032  
+channel # 638
+-1.370192  
+channel # 639
+0.208654  
+channel # 640
+-0.396793  
+channel # 641
+-0.445406  
+channel # 642
+2.268517  
+channel # 643
+-2.561546  
+channel # 644
+3.034826  
+channel # 645
+2.471175  
+channel # 646
+-2.111753  
+channel # 647
+0.820755  
+channel # 648
+3.847632  
+channel # 649
+4.755264  
+channel # 650
+-1.895334  
+channel # 651
+1.619935  
+channel # 652
+1.803463  
+channel # 653
+0.010349  
+channel # 654
+0.604917  
+channel # 655
+-0.972631  
+channel # 656
+-0.532286  
+channel # 657
+0.108627  
+channel # 658
+1.444758  
+channel # 659
+0.521422  
+channel # 660
+2.689868  
+channel # 661
+-0.886965  
+channel # 662
+-2.528110  
+channel # 663
+2.177011  
+channel # 664
+-1.776444  
+channel # 665
+3.661846  
+channel # 666
+-1.570080  
+channel # 667
+0.831587  
+channel # 668
+2.693063  
+channel # 669
+-1.988981  
+channel # 670
+1.717636  
+channel # 671
+0.463073  
+channel # 672
+-2.543347  
+channel # 673
+-1.924184  
+channel # 674
+6.495003  
+channel # 675
+1.778851  
+channel # 676
+-0.534890  
+channel # 677
+3.458375  
+channel # 678
+2.501624  
+channel # 679
+1.108779  
+channel # 680
+1.148294  
+channel # 681
+3.898167  
+channel # 682
+4.889108  
+channel # 683
+0.232877  
+channel # 684
+0.771064  
+channel # 685
+-0.501912  
+channel # 686
+-4.170436  
+channel # 687
+1.981297  
+channel # 688
+-1.601737  
+channel # 689
+-0.345022  
+channel # 690
+-0.596795  
+channel # 691
+-3.861832  
+channel # 692
+1.663127  
+channel # 693
+2.530439  
+channel # 694
+-2.005940  
+channel # 695
+-3.611810  
+channel # 696
+1.211894  
+channel # 697
+3.138368  
+channel # 698
+2.810922  
+channel # 699
+-1.347946  
+channel # 700
+0.024445  
+channel # 701
+7.789185  
+channel # 702
+0.115485  
+channel # 703
+0.629068  
+channel # 704
+-1.866168  
+channel # 705
+-1.606336  
+channel # 706
+-2.891229  
+channel # 707
+-0.751885  
+channel # 708
+-1.492248  
+channel # 709
+1.471728  
+channel # 710
+0.630967  
+channel # 711
+1.206934  
+channel # 712
+2.759232  
+channel # 713
+0.758152  
+channel # 714
+3.454837  
+channel # 715
+2.417483  
+channel # 716
+-0.761541  
+channel # 717
+-0.504984  
+channel # 718
+-3.601185  
+channel # 719
+-0.866529  
+channel # 720
+3.548692  
+channel # 721
+3.102552  
+channel # 722
+1.492021  
+channel # 723
+6.296380  
+channel # 724
+2.606027  
+channel # 725
+-1.218999  
+channel # 726
+3.252530  
+channel # 727
+-2.977015  
+channel # 728
+-1.457502  
+channel # 729
+7.148789  
+channel # 730
+2.773200  
+channel # 731
+-3.759368  
+channel # 732
+3.549356  
+channel # 733
+-2.135052  
+channel # 734
+1.398374  
+channel # 735
+-3.223117  
+channel # 736
+0.089513  
+channel # 737
+2.700611  
+channel # 738
+-2.127657  
+channel # 739
+0.958386  
+channel # 740
+-1.192901  
+channel # 741
+2.197175  
+channel # 742
+2.415138  
+channel # 743
+5.329200  
+channel # 744
+0.783660  
+channel # 745
+0.654951  
+channel # 746
+1.778779  
+channel # 747
+1.389512  
+channel # 748
+3.031749  
+channel # 749
+2.256248  
+channel # 750
+1.711168  
+channel # 751
+4.784395  
+channel # 752
+-1.688118  
+channel # 753
+-0.982618  
+channel # 754
+4.215024  
+channel # 755
+2.394327  
+channel # 756
+-0.090476  
+channel # 757
+0.766313  
+channel # 758
+-0.721787  
+channel # 759
+0.026496  
+channel # 760
+-2.433146  
+channel # 761
+3.413285  
+channel # 762
+6.310285  
+channel # 763
+-0.389207  
+channel # 764
+0.240184  
+channel # 765
+-0.659096  
+channel # 766
+2.342455  
+channel # 767
+-0.207197  
+channel # 768
+2.455730  
+channel # 769
+1.057424  
+channel # 770
+4.459450  
+channel # 771
+0.649621  
+channel # 772
+1.098702  
+channel # 773
+1.459715  
+channel # 774
+3.600215  
+channel # 775
+-0.215964  
+channel # 776
+-0.263379  
+channel # 777
+-1.875508  
+channel # 778
+-2.166652  
+channel # 779
+4.027785  
+channel # 780
+-2.985953  
+channel # 781
+0.854070  
+channel # 782
+-1.771664  
+channel # 783
+5.155735  
+channel # 784
+0.304906  
+channel # 785
+1.400714  
+channel # 786
+0.475978  
+channel # 787
+2.049584  
+channel # 788
+0.465520  
+channel # 789
+-0.131030  
+channel # 790
+5.617874  
+channel # 791
+2.858841  
+channel # 792
+1.381411  
+channel # 793
+2.637276  
+channel # 794
+4.521626  
+channel # 795
+4.677391  
+channel # 796
+-1.659406  
+channel # 797
+-0.019551  
+channel # 798
+5.149874  
+channel # 799
+0.401220  
+channel # 800
+2.304352  
+channel # 801
+-0.416131  
+channel # 802
+0.416080  
+channel # 803
+-1.784777  
+channel # 804
+-0.178420  
+channel # 805
+5.153783  
+channel # 806
+1.043490  
+channel # 807
+1.227659  
+channel # 808
+1.093266  
+channel # 809
+-0.255005  
+channel # 810
+2.460864  
+channel # 811
+2.138804  
+channel # 812
+6.111237  
+channel # 813
+-1.549180  
+channel # 814
+4.152078  
+channel # 815
+-1.088012  
+channel # 816
+-2.069381  
+channel # 817
+0.534113  
+channel # 818
+-2.017479  
+channel # 819
+4.118049  
+channel # 820
+-0.652112  
+channel # 821
+-5.277631  
+channel # 822
+-3.789444  
+channel # 823
+-0.534463  
+channel # 824
+6.035841  
+channel # 825
+1.407200  
+channel # 826
+-1.976379  
+channel # 827
+-0.421386  
+channel # 828
+2.099644  
+channel # 829
+4.698775  
+channel # 830
+-2.960517  
+channel # 831
+-1.687538  
+channel # 832
+3.337828  
+channel # 833
+-2.274526  
+channel # 834
+-2.870248  
+channel # 835
+1.483901  
+channel # 836
+-0.770967  
+channel # 837
+1.732061  
+channel # 838
+3.545912  
+channel # 839
+3.248113  
+channel # 840
+-2.538108  
+channel # 841
+3.029202  
+channel # 842
+2.732596  
+channel # 843
+1.349910  
+channel # 844
+0.742933  
+channel # 845
+1.430771  
+channel # 846
+3.469005  
+channel # 847
+2.057230  
+channel # 848
+-4.154372  
+channel # 849
+-1.220669  
+channel # 850
+2.071301  
+channel # 851
+2.207716  
+channel # 852
+2.655553  
+channel # 853
+3.931714  
+channel # 854
+-2.642618  
+channel # 855
+2.189503  
+channel # 856
+2.869137  
+channel # 857
+-4.184220  
+channel # 858
+-1.861986  
+channel # 859
+-0.871284  
+channel # 860
+2.458555  
+channel # 861
+-1.955710  
+channel # 862
+6.836939  
+channel # 863
+0.312546  
+channel # 864
+-2.299764  
+channel # 865
+-3.189687  
+channel # 866
+0.159736  
+channel # 867
+-2.110255  
+channel # 868
+-1.755707  
+channel # 869
+1.686362  
+channel # 870
+-0.357998  
+channel # 871
+-1.495932  
+channel # 872
+-1.748117  
+channel # 873
+1.561884  
+channel # 874
+-1.908144  
+channel # 875
+-3.920564  
+channel # 876
+-0.035867  
+channel # 877
+8.309801  
+channel # 878
+-1.819795  
+channel # 879
+-0.614705  
+channel # 880
+3.129287  
+channel # 881
+0.822421  
+channel # 882
+0.836527  
+channel # 883
+3.017120  
+channel # 884
+4.265757  
+channel # 885
+-0.996057  
+channel # 886
+2.440050  
+channel # 887
+-2.095431  
+channel # 888
+0.717328  
+channel # 889
+-4.045425  
+channel # 890
+-2.311359  
+channel # 891
+-1.734700  
+channel # 892
+1.808569  
+channel # 893
+3.032072  
+channel # 894
+0.715063  
+channel # 895
+2.514274  
+channel # 896
+-0.734675  
+channel # 897
+7.300350  
+channel # 898
+4.269651  
+channel # 899
+2.716573  
+channel # 900
+3.495235  
+channel # 901
+-1.488983  
+channel # 902
+0.817635  
+channel # 903
+0.946666  
+channel # 904
+3.088687  
+channel # 905
+4.982964  
+channel # 906
+4.494079  
+channel # 907
+1.212205  
+channel # 908
+-1.024559  
+channel # 909
+-0.473514  
+channel # 910
+4.568259  
+channel # 911
+2.249634  
+channel # 912
+2.364687  
+channel # 913
+-0.630663  
+channel # 914
+-2.709726  
+channel # 915
+0.386606  
+channel # 916
+-2.442890  
+channel # 917
+2.233243  
+channel # 918
+0.824912  
+channel # 919
+2.537025  
+channel # 920
+0.892635  
+channel # 921
+-0.126375  
+channel # 922
+2.964378  
+channel # 923
+1.101177  
+channel # 924
+1.105400  
+channel # 925
+-1.310623  
+channel # 926
+1.394163  
+channel # 927
+0.455955  
+channel # 928
+-0.534046  
+channel # 929
+0.739051  
+channel # 930
+2.457254  
+channel # 931
+-2.311103  
+channel # 932
+0.144619  
+channel # 933
+0.570463  
+channel # 934
+-3.762503  
+channel # 935
+-2.789119  
+channel # 936
+2.087248  
+channel # 937
+1.181434  
+channel # 938
+3.651336  
+channel # 939
+2.457157  
+channel # 940
+2.560642  
+channel # 941
+-0.538581  
+channel # 942
+-0.126738  
+channel # 943
+0.826520  
+channel # 944
+0.637199  
+channel # 945
+-1.837561  
+channel # 946
+-0.087032  
+channel # 947
+-0.813619  
+channel # 948
+-1.266831  
+channel # 949
+2.665865  
+channel # 950
+1.400220  
+channel # 951
+2.100558  
+channel # 952
+1.051694  
+channel # 953
+-1.025696  
+channel # 954
+2.643325  
+channel # 955
+2.075410  
+channel # 956
+-0.906699  
+channel # 957
+0.855382  
+channel # 958
+0.733217  
+channel # 959
+0.939977  
+channel # 960
+-0.495081  
+channel # 961
+-0.991810  
+channel # 962
+2.198384  
+channel # 963
+-2.318975  
+channel # 964
+-0.209340  
+channel # 965
+-0.091739  
+channel # 966
+-2.033524  
+channel # 967
+0.923961  
+channel # 968
+-0.239241  
+channel # 969
+3.403334  
+channel # 970
+3.320680  
+channel # 971
+-1.627395  
+channel # 972
+1.997774  
+channel # 973
+-4.176081  
+channel # 974
+-0.395976  
+channel # 975
+-1.150954  
+channel # 976
+-0.888149  
+channel # 977
+-2.108699  
+channel # 978
+0.296809  
+channel # 979
+-0.486988  
+channel # 980
+-1.408534  
+channel # 981
+-2.407114  
+channel # 982
+-2.085213  
+channel # 983
+0.684008  
+channel # 984
+-3.468466  
+channel # 985
+-0.171268  
+channel # 986
+0.442034  
+channel # 987
+-2.422732  
+channel # 988
+3.770426  
+channel # 989
+-0.344993  
+channel # 990
+0.696278  
+channel # 991
+-1.879198  
+channel # 992
+-3.223337  
+channel # 993
+-2.125665  
+channel # 994
+-2.067713  
+channel # 995
+-3.922313  
+channel # 996
+-2.095294  
+channel # 997
+0.489900  
+channel # 998
+-2.415864  
+channel # 999
+2.857544  
+channel #1000
+5.546748  
+batch #   3
+channel #   1
+-2.875296  
+channel #   2
+-1.512105  
+channel #   3
+-3.283083  
+channel #   4
+-0.700421  
+channel #   5
+-2.870856  
+channel #   6
+-1.001136  
+channel #   7
+-0.305430  
+channel #   8
+2.337399  
+channel #   9
+1.571678  
+channel #  10
+0.632277  
+channel #  11
+3.473526  
+channel #  12
+0.150448  
+channel #  13
+0.313095  
+channel #  14
+-2.876028  
+channel #  15
+-2.811495  
+channel #  16
+-2.012996  
+channel #  17
+-2.542428  
+channel #  18
+-1.111130  
+channel #  19
+-2.669664  
+channel #  20
+-3.623839  
+channel #  21
+-3.070425  
+channel #  22
+1.075786  
+channel #  23
+-1.273601  
+channel #  24
+-0.689437  
+channel #  25
+1.339848  
+channel #  26
+1.161200  
+channel #  27
+3.427363  
+channel #  28
+1.563171  
+channel #  29
+-0.453902  
+channel #  30
+-0.492751  
+channel #  31
+-0.095265  
+channel #  32
+-1.714089  
+channel #  33
+1.513574  
+channel #  34
+-3.580028  
+channel #  35
+-1.562191  
+channel #  36
+-2.361597  
+channel #  37
+-0.196493  
+channel #  38
+-2.114344  
+channel #  39
+5.535356  
+channel #  40
+0.769254  
+channel #  41
+0.433587  
+channel #  42
+5.532582  
+channel #  43
+4.533538  
+channel #  44
+3.133694  
+channel #  45
+0.029120  
+channel #  46
+3.243860  
+channel #  47
+-0.211863  
+channel #  48
+1.468811  
+channel #  49
+1.700139  
+channel #  50
+1.932793  
+channel #  51
+-0.973155  
+channel #  52
+-0.538511  
+channel #  53
+-1.274290  
+channel #  54
+0.314759  
+channel #  55
+0.315973  
+channel #  56
+-3.860685  
+channel #  57
+3.504426  
+channel #  58
+-3.576853  
+channel #  59
+-0.158587  
+channel #  60
+-1.269419  
+channel #  61
+0.651745  
+channel #  62
+1.681887  
+channel #  63
+2.452708  
+channel #  64
+5.227081  
+channel #  65
+-2.034395  
+channel #  66
+-0.473766  
+channel #  67
+2.343887  
+channel #  68
+2.752134  
+channel #  69
+4.452185  
+channel #  70
+-4.285552  
+channel #  71
+-2.704478  
+channel #  72
+-0.489116  
+channel #  73
+0.425750  
+channel #  74
+2.788265  
+channel #  75
+-0.046615  
+channel #  76
+-1.491958  
+channel #  77
+-1.381370  
+channel #  78
+-1.934252  
+channel #  79
+-1.106143  
+channel #  80
+-2.437918  
+channel #  81
+3.742971  
+channel #  82
+1.192997  
+channel #  83
+3.096451  
+channel #  84
+3.865646  
+channel #  85
+-0.599199  
+channel #  86
+1.546889  
+channel #  87
+3.605093  
+channel #  88
+-3.128106  
+channel #  89
+1.615981  
+channel #  90
+-2.005969  
+channel #  91
+-3.014167  
+channel #  92
+0.110918  
+channel #  93
+1.424991  
+channel #  94
+0.713555  
+channel #  95
+-2.130381  
+channel #  96
+-1.226557  
+channel #  97
+-1.529683  
+channel #  98
+-0.946236  
+channel #  99
+-1.865714  
+channel # 100
+-1.800843  
+channel # 101
+-3.807055  
+channel # 102
+1.864235  
+channel # 103
+-1.087528  
+channel # 104
+-2.646956  
+channel # 105
+-1.106981  
+channel # 106
+-1.995456  
+channel # 107
+-2.083148  
+channel # 108
+-5.831223  
+channel # 109
+-2.418768  
+channel # 110
+-2.218246  
+channel # 111
+0.995918  
+channel # 112
+-1.689231  
+channel # 113
+-0.103602  
+channel # 114
+-0.901890  
+channel # 115
+-0.094274  
+channel # 116
+-0.721018  
+channel # 117
+-2.406608  
+channel # 118
+-0.000634  
+channel # 119
+-2.538758  
+channel # 120
+-0.379660  
+channel # 121
+1.752185  
+channel # 122
+-0.155027  
+channel # 123
+-2.504450  
+channel # 124
+2.294524  
+channel # 125
+0.908290  
+channel # 126
+-1.799032  
+channel # 127
+-0.746333  
+channel # 128
+-0.339097  
+channel # 129
+-2.064906  
+channel # 130
+-0.882400  
+channel # 131
+-3.832126  
+channel # 132
+-3.693856  
+channel # 133
+-3.004619  
+channel # 134
+-2.567572  
+channel # 135
+-0.877291  
+channel # 136
+0.705924  
+channel # 137
+-2.842822  
+channel # 138
+-3.663634  
+channel # 139
+3.410463  
+channel # 140
+-0.921833  
+channel # 141
+2.176778  
+channel # 142
+0.029872  
+channel # 143
+1.819977  
+channel # 144
+-2.392259  
+channel # 145
+-3.108188  
+channel # 146
+-0.711248  
+channel # 147
+-1.939926  
+channel # 148
+-3.242740  
+channel # 149
+-2.552374  
+channel # 150
+-5.013456  
+channel # 151
+-1.148044  
+channel # 152
+1.289254  
+channel # 153
+0.055479  
+channel # 154
+-1.051167  
+channel # 155
+-0.841262  
+channel # 156
+-2.643771  
+channel # 157
+0.257027  
+channel # 158
+-2.095958  
+channel # 159
+0.104208  
+channel # 160
+3.987319  
+channel # 161
+-1.698590  
+channel # 162
+-1.063552  
+channel # 163
+-0.801116  
+channel # 164
+0.555610  
+channel # 165
+1.356193  
+channel # 166
+1.054455  
+channel # 167
+1.572688  
+channel # 168
+2.426888  
+channel # 169
+2.910343  
+channel # 170
+-1.220155  
+channel # 171
+0.726821  
+channel # 172
+1.731864  
+channel # 173
+2.356525  
+channel # 174
+1.153088  
+channel # 175
+-2.377852  
+channel # 176
+0.786764  
+channel # 177
+3.223991  
+channel # 178
+1.643881  
+channel # 179
+-1.225335  
+channel # 180
+1.156164  
+channel # 181
+-0.101401  
+channel # 182
+0.244976  
+channel # 183
+0.698519  
+channel # 184
+2.629237  
+channel # 185
+2.488584  
+channel # 186
+0.751396  
+channel # 187
+0.906586  
+channel # 188
+0.035780  
+channel # 189
+1.867093  
+channel # 190
+2.319603  
+channel # 191
+-2.573801  
+channel # 192
+0.650144  
+channel # 193
+-1.292197  
+channel # 194
+-0.765469  
+channel # 195
+-3.160159  
+channel # 196
+-0.809457  
+channel # 197
+-1.201230  
+channel # 198
+1.088630  
+channel # 199
+1.013778  
+channel # 200
+-4.720815  
+channel # 201
+-0.546958  
+channel # 202
+-3.236841  
+channel # 203
+-0.105508  
+channel # 204
+0.602132  
+channel # 205
+-1.980500  
+channel # 206
+-0.312269  
+channel # 207
+4.412792  
+channel # 208
+1.694082  
+channel # 209
+-0.075256  
+channel # 210
+-0.047246  
+channel # 211
+4.718015  
+channel # 212
+3.303490  
+channel # 213
+1.945228  
+channel # 214
+0.535899  
+channel # 215
+-1.138910  
+channel # 216
+0.921431  
+channel # 217
+0.641022  
+channel # 218
+-1.857977  
+channel # 219
+0.962401  
+channel # 220
+-1.389430  
+channel # 221
+-0.160695  
+channel # 222
+4.085123  
+channel # 223
+2.055925  
+channel # 224
+-2.209616  
+channel # 225
+-0.473849  
+channel # 226
+-0.374531  
+channel # 227
+-1.178522  
+channel # 228
+2.157830  
+channel # 229
+-1.005161  
+channel # 230
+-1.839812  
+channel # 231
+-0.842877  
+channel # 232
+0.577889  
+channel # 233
+0.049647  
+channel # 234
+0.075706  
+channel # 235
+-0.844250  
+channel # 236
+0.143909  
+channel # 237
+-0.210114  
+channel # 238
+-0.169728  
+channel # 239
+-0.800006  
+channel # 240
+-1.031858  
+channel # 241
+-0.330699  
+channel # 242
+0.367618  
+channel # 243
+2.383890  
+channel # 244
+2.287792  
+channel # 245
+-0.177779  
+channel # 246
+-1.608836  
+channel # 247
+3.178936  
+channel # 248
+0.026840  
+channel # 249
+-0.336838  
+channel # 250
+-2.296576  
+channel # 251
+0.089824  
+channel # 252
+5.273374  
+channel # 253
+0.027086  
+channel # 254
+2.497918  
+channel # 255
+1.381630  
+channel # 256
+-1.195440  
+channel # 257
+-0.630815  
+channel # 258
+-1.039534  
+channel # 259
+-0.735319  
+channel # 260
+-0.704357  
+channel # 261
+2.145625  
+channel # 262
+-1.649929  
+channel # 263
+1.396354  
+channel # 264
+-2.579262  
+channel # 265
+-1.105296  
+channel # 266
+1.205523  
+channel # 267
+-0.055021  
+channel # 268
+1.390764  
+channel # 269
+-0.281690  
+channel # 270
+2.138572  
+channel # 271
+1.576997  
+channel # 272
+4.510809  
+channel # 273
+4.338687  
+channel # 274
+4.983110  
+channel # 275
+4.959380  
+channel # 276
+5.064045  
+channel # 277
+9.758759  
+channel # 278
+0.994819  
+channel # 279
+3.588827  
+channel # 280
+0.300029  
+channel # 281
+4.154080  
+channel # 282
+2.923432  
+channel # 283
+5.321291  
+channel # 284
+0.078185  
+channel # 285
+-1.006201  
+channel # 286
+8.309197  
+channel # 287
+5.256303  
+channel # 288
+6.768059  
+channel # 289
+15.552973  
+channel # 290
+8.066178  
+channel # 291
+12.646369  
+channel # 292
+9.098486  
+channel # 293
+5.000638  
+channel # 294
+19.341072  
+channel # 295
+2.712126  
+channel # 296
+-1.179990  
+channel # 297
+-1.145708  
+channel # 298
+-0.542447  
+channel # 299
+4.103253  
+channel # 300
+3.060857  
+channel # 301
+-0.570531  
+channel # 302
+0.053424  
+channel # 303
+-1.415591  
+channel # 304
+2.104264  
+channel # 305
+0.177422  
+channel # 306
+-1.400156  
+channel # 307
+-0.619606  
+channel # 308
+2.752334  
+channel # 309
+-2.731462  
+channel # 310
+0.605643  
+channel # 311
+0.520557  
+channel # 312
+0.942789  
+channel # 313
+0.172265  
+channel # 314
+-1.805573  
+channel # 315
+-0.873919  
+channel # 316
+-0.825855  
+channel # 317
+-3.054185  
+channel # 318
+1.102590  
+channel # 319
+-0.614522  
+channel # 320
+1.120661  
+channel # 321
+-0.630315  
+channel # 322
+-1.047550  
+channel # 323
+-1.306719  
+channel # 324
+2.101533  
+channel # 325
+-1.862277  
+channel # 326
+-0.251192  
+channel # 327
+0.539682  
+channel # 328
+0.730883  
+channel # 329
+-2.419981  
+channel # 330
+-0.029282  
+channel # 331
+-0.910235  
+channel # 332
+0.784114  
+channel # 333
+-0.347055  
+channel # 334
+-2.475312  
+channel # 335
+0.149051  
+channel # 336
+3.328112  
+channel # 337
+1.099504  
+channel # 338
+-0.990700  
+channel # 339
+-0.724867  
+channel # 340
+2.806999  
+channel # 341
+6.433548  
+channel # 342
+-0.215423  
+channel # 343
+0.867347  
+channel # 344
+2.756202  
+channel # 345
+-1.435416  
+channel # 346
+1.990641  
+channel # 347
+-0.340489  
+channel # 348
+2.278275  
+channel # 349
+1.991980  
+channel # 350
+0.934624  
+channel # 351
+2.615597  
+channel # 352
+3.241356  
+channel # 353
+5.644946  
+channel # 354
+7.344525  
+channel # 355
+4.351298  
+channel # 356
+2.360752  
+channel # 357
+1.981453  
+channel # 358
+-0.670523  
+channel # 359
+0.170151  
+channel # 360
+0.057548  
+channel # 361
+-0.141627  
+channel # 362
+-2.249809  
+channel # 363
+-1.137063  
+channel # 364
+0.721696  
+channel # 365
+-4.897973  
+channel # 366
+-0.698050  
+channel # 367
+-1.586742  
+channel # 368
+-1.921575  
+channel # 369
+-1.455945  
+channel # 370
+-0.971178  
+channel # 371
+-0.510068  
+channel # 372
+4.549387  
+channel # 373
+2.791994  
+channel # 374
+0.840589  
+channel # 375
+0.610722  
+channel # 376
+-2.414340  
+channel # 377
+0.845031  
+channel # 378
+0.377839  
+channel # 379
+-1.603426  
+channel # 380
+-0.730250  
+channel # 381
+0.259556  
+channel # 382
+-1.834592  
+channel # 383
+-1.280853  
+channel # 384
+2.140361  
+channel # 385
+3.551391  
+channel # 386
+1.221979  
+channel # 387
+1.741961  
+channel # 388
+0.866751  
+channel # 389
+-3.408698  
+channel # 390
+-1.225233  
+channel # 391
+0.000984  
+channel # 392
+-0.767672  
+channel # 393
+-1.858568  
+channel # 394
+-2.663485  
+channel # 395
+-2.207803  
+channel # 396
+-0.810423  
+channel # 397
+0.753110  
+channel # 398
+-0.916074  
+channel # 399
+-1.376396  
+channel # 400
+1.237572  
+channel # 401
+-4.277483  
+channel # 402
+2.239206  
+channel # 403
+0.371637  
+channel # 404
+-3.311975  
+channel # 405
+0.691592  
+channel # 406
+-1.178859  
+channel # 407
+-0.428971  
+channel # 408
+-0.025177  
+channel # 409
+-2.312053  
+channel # 410
+3.826556  
+channel # 411
+0.211858  
+channel # 412
+-0.444288  
+channel # 413
+-0.232459  
+channel # 414
+1.597014  
+channel # 415
+-0.496302  
+channel # 416
+0.293170  
+channel # 417
+0.528789  
+channel # 418
+-0.273529  
+channel # 419
+0.724978  
+channel # 420
+1.597581  
+channel # 421
+1.415042  
+channel # 422
+2.950892  
+channel # 423
+-2.499566  
+channel # 424
+-0.069080  
+channel # 425
+1.309247  
+channel # 426
+1.175425  
+channel # 427
+0.065616  
+channel # 428
+1.862209  
+channel # 429
+-1.395818  
+channel # 430
+1.233027  
+channel # 431
+-0.177780  
+channel # 432
+-1.794424  
+channel # 433
+-2.131764  
+channel # 434
+-3.347795  
+channel # 435
+-2.318474  
+channel # 436
+0.544110  
+channel # 437
+-0.357678  
+channel # 438
+-1.784055  
+channel # 439
+0.003317  
+channel # 440
+-0.601191  
+channel # 441
+-0.928990  
+channel # 442
+-0.453435  
+channel # 443
+0.869701  
+channel # 444
+-1.490539  
+channel # 445
+-1.931972  
+channel # 446
+1.278796  
+channel # 447
+-0.335662  
+channel # 448
+3.556119  
+channel # 449
+-0.305355  
+channel # 450
+-0.633939  
+channel # 451
+-3.755437  
+channel # 452
+-0.103813  
+channel # 453
+-0.540207  
+channel # 454
+-1.331158  
+channel # 455
+-3.327438  
+channel # 456
+2.354833  
+channel # 457
+0.740419  
+channel # 458
+0.954171  
+channel # 459
+-1.542585  
+channel # 460
+0.372261  
+channel # 461
+-2.981361  
+channel # 462
+-0.799980  
+channel # 463
+-1.112372  
+channel # 464
+0.910733  
+channel # 465
+0.667632  
+channel # 466
+-0.997677  
+channel # 467
+-2.879128  
+channel # 468
+-1.397402  
+channel # 469
+0.266638  
+channel # 470
+-0.810003  
+channel # 471
+0.824191  
+channel # 472
+-1.491571  
+channel # 473
+-0.610698  
+channel # 474
+-1.797387  
+channel # 475
+-0.109058  
+channel # 476
+-2.708672  
+channel # 477
+1.069153  
+channel # 478
+-0.816402  
+channel # 479
+0.269868  
+channel # 480
+-0.004515  
+channel # 481
+0.638035  
+channel # 482
+0.327596  
+channel # 483
+-0.668799  
+channel # 484
+1.653498  
+channel # 485
+-2.095915  
+channel # 486
+-0.379120  
+channel # 487
+1.544355  
+channel # 488
+0.829150  
+channel # 489
+2.084287  
+channel # 490
+2.393270  
+channel # 491
+3.202351  
+channel # 492
+1.729274  
+channel # 493
+0.542224  
+channel # 494
+-0.850405  
+channel # 495
+0.224023  
+channel # 496
+-0.497694  
+channel # 497
+0.322067  
+channel # 498
+1.209975  
+channel # 499
+0.848158  
+channel # 500
+-1.271735  
+channel # 501
+1.043554  
+channel # 502
+1.854981  
+channel # 503
+-0.734369  
+channel # 504
+-0.700703  
+channel # 505
+1.415561  
+channel # 506
+-1.588112  
+channel # 507
+-0.558959  
+channel # 508
+-0.694656  
+channel # 509
+0.046384  
+channel # 510
+0.516558  
+channel # 511
+0.012502  
+channel # 512
+-0.515254  
+channel # 513
+1.151320  
+channel # 514
+-1.447992  
+channel # 515
+3.302165  
+channel # 516
+2.603502  
+channel # 517
+0.717090  
+channel # 518
+4.302836  
+channel # 519
+-0.338077  
+channel # 520
+0.946675  
+channel # 521
+-1.583780  
+channel # 522
+-1.061262  
+channel # 523
+-2.115924  
+channel # 524
+1.194889  
+channel # 525
+-1.022294  
+channel # 526
+-2.587132  
+channel # 527
+0.352758  
+channel # 528
+-0.531011  
+channel # 529
+-0.094551  
+channel # 530
+-1.864350  
+channel # 531
+1.524141  
+channel # 532
+1.514993  
+channel # 533
+0.316438  
+channel # 534
+-1.025594  
+channel # 535
+-0.666946  
+channel # 536
+-0.076541  
+channel # 537
+-1.345099  
+channel # 538
+-1.083368  
+channel # 539
+1.140605  
+channel # 540
+0.730497  
+channel # 541
+-0.080728  
+channel # 542
+1.257690  
+channel # 543
+-1.220769  
+channel # 544
+-1.966917  
+channel # 545
+-0.539516  
+channel # 546
+-0.672645  
+channel # 547
+1.763643  
+channel # 548
+-1.778197  
+channel # 549
+-3.074029  
+channel # 550
+1.380218  
+channel # 551
+-0.213866  
+channel # 552
+-0.451720  
+channel # 553
+0.997605  
+channel # 554
+0.538491  
+channel # 555
+-1.518259  
+channel # 556
+0.086213  
+channel # 557
+0.854576  
+channel # 558
+0.078362  
+channel # 559
+1.210914  
+channel # 560
+1.147966  
+channel # 561
+-0.130402  
+channel # 562
+-3.020234  
+channel # 563
+0.316059  
+channel # 564
+-0.193783  
+channel # 565
+-0.775765  
+channel # 566
+-1.653032  
+channel # 567
+-2.403769  
+channel # 568
+-2.603389  
+channel # 569
+2.239141  
+channel # 570
+-3.665609  
+channel # 571
+1.283897  
+channel # 572
+0.031974  
+channel # 573
+1.068779  
+channel # 574
+-4.245103  
+channel # 575
+0.121920  
+channel # 576
+-0.303982  
+channel # 577
+-1.413164  
+channel # 578
+0.032400  
+channel # 579
+-1.827150  
+channel # 580
+-1.907784  
+channel # 581
+-1.323795  
+channel # 582
+1.203696  
+channel # 583
+-2.456359  
+channel # 584
+-1.511250  
+channel # 585
+-2.031775  
+channel # 586
+-0.503244  
+channel # 587
+-0.659656  
+channel # 588
+-0.707965  
+channel # 589
+-0.256386  
+channel # 590
+-0.671824  
+channel # 591
+0.610118  
+channel # 592
+-0.876609  
+channel # 593
+-2.415927  
+channel # 594
+2.017221  
+channel # 595
+-0.316056  
+channel # 596
+-1.109250  
+channel # 597
+1.058714  
+channel # 598
+-1.811758  
+channel # 599
+-2.267105  
+channel # 600
+3.740887  
+channel # 601
+2.382759  
+channel # 602
+-1.675770  
+channel # 603
+-2.884111  
+channel # 604
+-1.118922  
+channel # 605
+0.060698  
+channel # 606
+-0.339188  
+channel # 607
+0.961636  
+channel # 608
+-0.760751  
+channel # 609
+0.085153  
+channel # 610
+0.774030  
+channel # 611
+0.370749  
+channel # 612
+2.026747  
+channel # 613
+-1.049574  
+channel # 614
+0.190432  
+channel # 615
+-0.373964  
+channel # 616
+-2.839744  
+channel # 617
+-0.340037  
+channel # 618
+-0.947584  
+channel # 619
+-1.244650  
+channel # 620
+0.986038  
+channel # 621
+-0.776598  
+channel # 622
+-0.298556  
+channel # 623
+0.515016  
+channel # 624
+2.421622  
+channel # 625
+-1.915429  
+channel # 626
+-0.061617  
+channel # 627
+0.361730  
+channel # 628
+-3.746027  
+channel # 629
+0.281996  
+channel # 630
+0.990929  
+channel # 631
+-0.841902  
+channel # 632
+-1.499202  
+channel # 633
+-1.042901  
+channel # 634
+3.958368  
+channel # 635
+0.548259  
+channel # 636
+-1.311096  
+channel # 637
+2.094311  
+channel # 638
+1.984328  
+channel # 639
+1.522676  
+channel # 640
+2.187362  
+channel # 641
+-1.887688  
+channel # 642
+1.840429  
+channel # 643
+-1.287667  
+channel # 644
+1.201163  
+channel # 645
+-1.000635  
+channel # 646
+-1.528371  
+channel # 647
+1.573557  
+channel # 648
+0.357780  
+channel # 649
+-2.240874  
+channel # 650
+-0.883941  
+channel # 651
+0.033626  
+channel # 652
+0.042277  
+channel # 653
+-0.231923  
+channel # 654
+0.997809  
+channel # 655
+-3.137902  
+channel # 656
+-0.166950  
+channel # 657
+-0.673907  
+channel # 658
+-0.968121  
+channel # 659
+1.036407  
+channel # 660
+-1.676055  
+channel # 661
+1.753735  
+channel # 662
+-2.225726  
+channel # 663
+-2.576439  
+channel # 664
+0.684654  
+channel # 665
+-1.584526  
+channel # 666
+1.427940  
+channel # 667
+-1.133373  
+channel # 668
+-2.416694  
+channel # 669
+0.764940  
+channel # 670
+-3.796522  
+channel # 671
+1.201746  
+channel # 672
+0.686487  
+channel # 673
+-1.603020  
+channel # 674
+-0.677437  
+channel # 675
+2.071075  
+channel # 676
+-2.358629  
+channel # 677
+3.405360  
+channel # 678
+-0.773896  
+channel # 679
+1.562191  
+channel # 680
+-2.555577  
+channel # 681
+1.201804  
+channel # 682
+-0.830176  
+channel # 683
+-1.660884  
+channel # 684
+1.830483  
+channel # 685
+-0.187725  
+channel # 686
+-0.293571  
+channel # 687
+-2.406806  
+channel # 688
+1.429059  
+channel # 689
+0.059450  
+channel # 690
+-0.773567  
+channel # 691
+2.520266  
+channel # 692
+0.064634  
+channel # 693
+1.263035  
+channel # 694
+-2.379749  
+channel # 695
+-1.887866  
+channel # 696
+0.521836  
+channel # 697
+-3.178164  
+channel # 698
+1.949407  
+channel # 699
+0.831065  
+channel # 700
+0.197619  
+channel # 701
+-0.603304  
+channel # 702
+-0.182293  
+channel # 703
+-0.531332  
+channel # 704
+2.109036  
+channel # 705
+2.772377  
+channel # 706
+-1.892328  
+channel # 707
+-1.343298  
+channel # 708
+0.314540  
+channel # 709
+0.066810  
+channel # 710
+0.028861  
+channel # 711
+-0.224959  
+channel # 712
+1.288239  
+channel # 713
+-1.153094  
+channel # 714
+-0.922780  
+channel # 715
+0.185461  
+channel # 716
+-2.243833  
+channel # 717
+0.937168  
+channel # 718
+1.240180  
+channel # 719
+0.587102  
+channel # 720
+-0.152517  
+channel # 721
+0.433179  
+channel # 722
+-1.085907  
+channel # 723
+0.780535  
+channel # 724
+-0.465368  
+channel # 725
+-1.767580  
+channel # 726
+0.677938  
+channel # 727
+-2.683505  
+channel # 728
+-0.737100  
+channel # 729
+-0.392871  
+channel # 730
+-0.757594  
+channel # 731
+-1.222442  
+channel # 732
+-0.823405  
+channel # 733
+-3.369473  
+channel # 734
+-0.397745  
+channel # 735
+-3.194882  
+channel # 736
+-0.497619  
+channel # 737
+-1.028027  
+channel # 738
+-0.060046  
+channel # 739
+-2.639455  
+channel # 740
+1.631692  
+channel # 741
+-0.188727  
+channel # 742
+1.772145  
+channel # 743
+-1.439875  
+channel # 744
+1.051868  
+channel # 745
+-0.260763  
+channel # 746
+-1.297496  
+channel # 747
+2.186795  
+channel # 748
+-0.889602  
+channel # 749
+-0.886639  
+channel # 750
+-0.383800  
+channel # 751
+1.709014  
+channel # 752
+-0.507068  
+channel # 753
+-0.284829  
+channel # 754
+-2.469862  
+channel # 755
+1.089594  
+channel # 756
+1.792039  
+channel # 757
+-1.394659  
+channel # 758
+-0.116416  
+channel # 759
+1.542395  
+channel # 760
+1.020910  
+channel # 761
+-0.838777  
+channel # 762
+3.915774  
+channel # 763
+0.738725  
+channel # 764
+0.336195  
+channel # 765
+2.090816  
+channel # 766
+-0.855795  
+channel # 767
+-1.102638  
+channel # 768
+-0.293415  
+channel # 769
+-0.161096  
+channel # 770
+1.754879  
+channel # 771
+1.062359  
+channel # 772
+-0.761957  
+channel # 773
+1.460066  
+channel # 774
+0.291083  
+channel # 775
+-1.815809  
+channel # 776
+0.644788  
+channel # 777
+-0.406870  
+channel # 778
+1.417773  
+channel # 779
+-0.023068  
+channel # 780
+1.101143  
+channel # 781
+-3.281611  
+channel # 782
+0.541064  
+channel # 783
+1.206397  
+channel # 784
+-0.033924  
+channel # 785
+-1.225446  
+channel # 786
+-0.185315  
+channel # 787
+2.667681  
+channel # 788
+-1.301506  
+channel # 789
+0.076057  
+channel # 790
+0.394171  
+channel # 791
+-2.126781  
+channel # 792
+1.903293  
+channel # 793
+-2.032342  
+channel # 794
+-2.690286  
+channel # 795
+0.450119  
+channel # 796
+0.387624  
+channel # 797
+0.374607  
+channel # 798
+-0.581730  
+channel # 799
+-1.143574  
+channel # 800
+0.106658  
+channel # 801
+-0.623832  
+channel # 802
+-2.505771  
+channel # 803
+-1.203164  
+channel # 804
+-0.935929  
+channel # 805
+-1.577626  
+channel # 806
+0.990535  
+channel # 807
+-0.497132  
+channel # 808
+0.131813  
+channel # 809
+0.795910  
+channel # 810
+-0.747753  
+channel # 811
+-0.561652  
+channel # 812
+0.521912  
+channel # 813
+-0.901979  
+channel # 814
+2.015903  
+channel # 815
+-3.799891  
+channel # 816
+1.203784  
+channel # 817
+-1.548155  
+channel # 818
+-0.344163  
+channel # 819
+0.522243  
+channel # 820
+2.766550  
+channel # 821
+-2.614760  
+channel # 822
+1.562903  
+channel # 823
+-0.342897  
+channel # 824
+2.297581  
+channel # 825
+-0.039394  
+channel # 826
+2.195094  
+channel # 827
+0.167128  
+channel # 828
+-1.318777  
+channel # 829
+1.441995  
+channel # 830
+-4.621502  
+channel # 831
+0.877002  
+channel # 832
+4.271310  
+channel # 833
+1.094174  
+channel # 834
+-4.104526  
+channel # 835
+1.269981  
+channel # 836
+-2.195470  
+channel # 837
+2.968458  
+channel # 838
+1.355368  
+channel # 839
+-0.257771  
+channel # 840
+-0.235641  
+channel # 841
+-1.995785  
+channel # 842
+1.538420  
+channel # 843
+-1.653496  
+channel # 844
+0.326902  
+channel # 845
+0.395037  
+channel # 846
+0.648073  
+channel # 847
+-0.298970  
+channel # 848
+-1.173102  
+channel # 849
+-1.549777  
+channel # 850
+-0.357379  
+channel # 851
+4.064198  
+channel # 852
+-0.218419  
+channel # 853
+0.282199  
+channel # 854
+-2.829232  
+channel # 855
+0.871116  
+channel # 856
+2.519596  
+channel # 857
+-0.098705  
+channel # 858
+1.822688  
+channel # 859
+1.732012  
+channel # 860
+0.917861  
+channel # 861
+0.596990  
+channel # 862
+1.350707  
+channel # 863
+2.450377  
+channel # 864
+-1.578561  
+channel # 865
+-0.793387  
+channel # 866
+0.755560  
+channel # 867
+-1.909577  
+channel # 868
+0.499378  
+channel # 869
+-0.951838  
+channel # 870
+1.035916  
+channel # 871
+-1.118407  
+channel # 872
+-3.811872  
+channel # 873
+3.768451  
+channel # 874
+-0.424772  
+channel # 875
+-2.752430  
+channel # 876
+-1.342723  
+channel # 877
+-0.554852  
+channel # 878
+-1.181555  
+channel # 879
+-0.733343  
+channel # 880
+0.833023  
+channel # 881
+-1.355585  
+channel # 882
+0.078367  
+channel # 883
+-0.975250  
+channel # 884
+-0.040364  
+channel # 885
+2.417196  
+channel # 886
+1.987528  
+channel # 887
+-1.870656  
+channel # 888
+-1.286437  
+channel # 889
+0.959539  
+channel # 890
+1.334576  
+channel # 891
+-1.664431  
+channel # 892
+-0.962847  
+channel # 893
+2.162985  
+channel # 894
+0.230926  
+channel # 895
+-1.090650  
+channel # 896
+-1.800241  
+channel # 897
+-0.166142  
+channel # 898
+1.294842  
+channel # 899
+-0.769014  
+channel # 900
+0.004275  
+channel # 901
+0.552781  
+channel # 902
+1.061221  
+channel # 903
+0.568547  
+channel # 904
+0.475039  
+channel # 905
+1.016054  
+channel # 906
+-1.024790  
+channel # 907
+-0.123750  
+channel # 908
+1.395913  
+channel # 909
+-1.149872  
+channel # 910
+-4.055802  
+channel # 911
+-0.235520  
+channel # 912
+0.280910  
+channel # 913
+3.509815  
+channel # 914
+-2.368522  
+channel # 915
+-3.027830  
+channel # 916
+0.375946  
+channel # 917
+2.254664  
+channel # 918
+2.421514  
+channel # 919
+2.408450  
+channel # 920
+0.678279  
+channel # 921
+-2.197225  
+channel # 922
+2.499752  
+channel # 923
+0.156453  
+channel # 924
+-0.441945  
+channel # 925
+-2.741133  
+channel # 926
+-0.216353  
+channel # 927
+-1.468728  
+channel # 928
+0.328169  
+channel # 929
+-1.361256  
+channel # 930
+0.929391  
+channel # 931
+-1.066411  
+channel # 932
+1.974223  
+channel # 933
+-1.120325  
+channel # 934
+-2.857546  
+channel # 935
+-2.863598  
+channel # 936
+-2.295365  
+channel # 937
+-1.427670  
+channel # 938
+-0.696131  
+channel # 939
+-1.264182  
+channel # 940
+-4.174274  
+channel # 941
+-2.381378  
+channel # 942
+-1.509233  
+channel # 943
+-3.103423  
+channel # 944
+-2.964604  
+channel # 945
+-4.289752  
+channel # 946
+-4.530068  
+channel # 947
+0.046006  
+channel # 948
+-0.508777  
+channel # 949
+-1.788854  
+channel # 950
+0.558625  
+channel # 951
+-2.024021  
+channel # 952
+-0.540986  
+channel # 953
+-2.906810  
+channel # 954
+-0.337378  
+channel # 955
+2.447046  
+channel # 956
+-2.175310  
+channel # 957
+-1.949885  
+channel # 958
+-1.583099  
+channel # 959
+2.450557  
+channel # 960
+-2.162234  
+channel # 961
+-0.566579  
+channel # 962
+-3.061850  
+channel # 963
+-1.672381  
+channel # 964
+-1.108870  
+channel # 965
+0.430839  
+channel # 966
+-0.019338  
+channel # 967
+0.347477  
+channel # 968
+1.796811  
+channel # 969
+1.323739  
+channel # 970
+0.743842  
+channel # 971
+0.581827  
+channel # 972
+-1.815070  
+channel # 973
+0.278658  
+channel # 974
+-0.881568  
+channel # 975
+-0.320192  
+channel # 976
+0.441362  
+channel # 977
+-1.070988  
+channel # 978
+0.375148  
+channel # 979
+1.894454  
+channel # 980
+-0.634564  
+channel # 981
+0.479399  
+channel # 982
+1.525357  
+channel # 983
+-1.239012  
+channel # 984
+-1.292605  
+channel # 985
+1.427185  
+channel # 986
+-2.372604  
+channel # 987
+-0.908084  
+channel # 988
+0.321293  
+channel # 989
+0.472576  
+channel # 990
+-0.303193  
+channel # 991
+-0.772991  
+channel # 992
+-1.820302  
+channel # 993
+1.688891  
+channel # 994
+-1.505213  
+channel # 995
+-0.058910  
+channel # 996
+-0.223635  
+channel # 997
+0.240628  
+channel # 998
+-1.575839  
+channel # 999
+-0.861957  
+channel #1000
+1.371567  
+batch #   4
+channel #   1
+-2.305711  
+channel #   2
+-0.401943  
+channel #   3
+4.065202  
+channel #   4
+1.260226  
+channel #   5
+1.695937  
+channel #   6
+1.111403  
+channel #   7
+4.038913  
+channel #   8
+-2.799062  
+channel #   9
+-0.153695  
+channel #  10
+1.158268  
+channel #  11
+0.843149  
+channel #  12
+-1.605195  
+channel #  13
+-0.236180  
+channel #  14
+-0.062682  
+channel #  15
+-0.955682  
+channel #  16
+-1.046993  
+channel #  17
+0.399499  
+channel #  18
+1.543347  
+channel #  19
+-1.465015  
+channel #  20
+-2.806788  
+channel #  21
+-0.165726  
+channel #  22
+-2.803204  
+channel #  23
+-1.754450  
+channel #  24
+-0.936584  
+channel #  25
+-2.075285  
+channel #  26
+1.307264  
+channel #  27
+1.632312  
+channel #  28
+2.630455  
+channel #  29
+1.415041  
+channel #  30
+2.986363  
+channel #  31
+-1.743808  
+channel #  32
+-2.259948  
+channel #  33
+-0.207004  
+channel #  34
+-0.898595  
+channel #  35
+-0.438111  
+channel #  36
+-1.461640  
+channel #  37
+-0.450656  
+channel #  38
+-2.299915  
+channel #  39
+0.981889  
+channel #  40
+2.389829  
+channel #  41
+0.503314  
+channel #  42
+1.878031  
+channel #  43
+-0.399150  
+channel #  44
+-0.274446  
+channel #  45
+0.528913  
+channel #  46
+-0.794760  
+channel #  47
+2.120905  
+channel #  48
+0.512295  
+channel #  49
+0.859461  
+channel #  50
+0.359823  
+channel #  51
+0.937840  
+channel #  52
+-0.666073  
+channel #  53
+2.366346  
+channel #  54
+-0.230568  
+channel #  55
+-0.146074  
+channel #  56
+-1.724969  
+channel #  57
+-1.126633  
+channel #  58
+-1.521266  
+channel #  59
+1.311640  
+channel #  60
+-2.211970  
+channel #  61
+-2.063764  
+channel #  62
+-2.886194  
+channel #  63
+-1.670966  
+channel #  64
+0.664191  
+channel #  65
+0.221930  
+channel #  66
+-0.042371  
+channel #  67
+0.229614  
+channel #  68
+-0.328846  
+channel #  69
+-0.554762  
+channel #  70
+-2.190681  
+channel #  71
+1.545703  
+channel #  72
+0.872499  
+channel #  73
+-0.789122  
+channel #  74
+-0.363291  
+channel #  75
+-1.238361  
+channel #  76
+1.591602  
+channel #  77
+-0.906632  
+channel #  78
+-0.998329  
+channel #  79
+0.925409  
+channel #  80
+1.995812  
+channel #  81
+-0.043912  
+channel #  82
+5.011198  
+channel #  83
+-0.448895  
+channel #  84
+-0.630986  
+channel #  85
+-0.282869  
+channel #  86
+-0.163950  
+channel #  87
+-0.323636  
+channel #  88
+-1.339401  
+channel #  89
+-2.353270  
+channel #  90
+-1.343785  
+channel #  91
+-2.539878  
+channel #  92
+-2.042434  
+channel #  93
+-1.552813  
+channel #  94
+-5.446167  
+channel #  95
+0.053360  
+channel #  96
+-4.181571  
+channel #  97
+-3.727832  
+channel #  98
+-2.879383  
+channel #  99
+-0.418585  
+channel # 100
+0.955426  
+channel # 101
+-2.829936  
+channel # 102
+-4.059633  
+channel # 103
+-1.054794  
+channel # 104
+-2.895592  
+channel # 105
+5.316224  
+channel # 106
+-2.264008  
+channel # 107
+-0.002279  
+channel # 108
+2.109051  
+channel # 109
+0.572297  
+channel # 110
+-0.195735  
+channel # 111
+-0.587909  
+channel # 112
+2.095642  
+channel # 113
+0.657734  
+channel # 114
+-0.695218  
+channel # 115
+-0.364235  
+channel # 116
+-2.201216  
+channel # 117
+-2.571658  
+channel # 118
+-4.225296  
+channel # 119
+-1.611840  
+channel # 120
+0.777381  
+channel # 121
+-1.061198  
+channel # 122
+-0.512589  
+channel # 123
+-2.869519  
+channel # 124
+0.032089  
+channel # 125
+3.898347  
+channel # 126
+-0.148763  
+channel # 127
+0.561098  
+channel # 128
+0.224252  
+channel # 129
+-5.393950  
+channel # 130
+2.043495  
+channel # 131
+-2.766926  
+channel # 132
+-0.545363  
+channel # 133
+1.419503  
+channel # 134
+-2.255300  
+channel # 135
+0.518355  
+channel # 136
+0.632347  
+channel # 137
+-1.926231  
+channel # 138
+1.268533  
+channel # 139
+-1.954641  
+channel # 140
+-1.696499  
+channel # 141
+-1.417430  
+channel # 142
+-1.053166  
+channel # 143
+-1.270409  
+channel # 144
+-1.494350  
+channel # 145
+-4.181476  
+channel # 146
+0.435390  
+channel # 147
+1.634256  
+channel # 148
+0.542681  
+channel # 149
+-0.563961  
+channel # 150
+-1.218296  
+channel # 151
+-1.056075  
+channel # 152
+2.745128  
+channel # 153
+1.389183  
+channel # 154
+2.638500  
+channel # 155
+-1.069593  
+channel # 156
+-1.461484  
+channel # 157
+-2.027749  
+channel # 158
+1.850174  
+channel # 159
+0.243326  
+channel # 160
+-2.888750  
+channel # 161
+-2.521827  
+channel # 162
+-4.260737  
+channel # 163
+-2.556759  
+channel # 164
+-1.204731  
+channel # 165
+-2.258780  
+channel # 166
+-4.018581  
+channel # 167
+-3.086832  
+channel # 168
+-3.556121  
+channel # 169
+-1.152785  
+channel # 170
+5.998675  
+channel # 171
+5.400678  
+channel # 172
+1.859002  
+channel # 173
+2.232547  
+channel # 174
+2.671398  
+channel # 175
+2.876059  
+channel # 176
+-2.153885  
+channel # 177
+2.174020  
+channel # 178
+5.499205  
+channel # 179
+0.645004  
+channel # 180
+0.481398  
+channel # 181
+-1.220528  
+channel # 182
+4.423799  
+channel # 183
+1.773118  
+channel # 184
+-1.339895  
+channel # 185
+2.646631  
+channel # 186
+0.945550  
+channel # 187
+1.437627  
+channel # 188
+-1.150600  
+channel # 189
+2.393767  
+channel # 190
+-0.411391  
+channel # 191
+-1.497227  
+channel # 192
+-0.588062  
+channel # 193
+1.987583  
+channel # 194
+1.028527  
+channel # 195
+0.474964  
+channel # 196
+-0.820859  
+channel # 197
+-1.004965  
+channel # 198
+-0.253559  
+channel # 199
+-1.644681  
+channel # 200
+0.525600  
+channel # 201
+0.237110  
+channel # 202
+-1.100937  
+channel # 203
+0.111074  
+channel # 204
+6.634198  
+channel # 205
+-1.660179  
+channel # 206
+0.574775  
+channel # 207
+-1.982349  
+channel # 208
+1.995949  
+channel # 209
+1.333750  
+channel # 210
+0.716644  
+channel # 211
+-1.885897  
+channel # 212
+-1.759542  
+channel # 213
+0.845969  
+channel # 214
+0.021801  
+channel # 215
+0.070595  
+channel # 216
+-1.248865  
+channel # 217
+1.465734  
+channel # 218
+-0.391391  
+channel # 219
+-2.569272  
+channel # 220
+-0.896168  
+channel # 221
+-1.870013  
+channel # 222
+-3.021856  
+channel # 223
+7.036826  
+channel # 224
+5.245944  
+channel # 225
+3.767415  
+channel # 226
+0.580678  
+channel # 227
+0.952378  
+channel # 228
+1.809379  
+channel # 229
+0.779923  
+channel # 230
+-0.332555  
+channel # 231
+4.628454  
+channel # 232
+3.641704  
+channel # 233
+1.699750  
+channel # 234
+-2.027949  
+channel # 235
+0.403397  
+channel # 236
+1.837730  
+channel # 237
+-0.101326  
+channel # 238
+1.290052  
+channel # 239
+-0.508150  
+channel # 240
+-2.272306  
+channel # 241
+1.340814  
+channel # 242
+-0.478666  
+channel # 243
+-0.539504  
+channel # 244
+-3.434106  
+channel # 245
+-0.941710  
+channel # 246
+-2.182385  
+channel # 247
+-0.923092  
+channel # 248
+0.761241  
+channel # 249
+9.704191  
+channel # 250
+6.697077  
+channel # 251
+9.563504  
+channel # 252
+2.801750  
+channel # 253
+-1.673481  
+channel # 254
+-1.625633  
+channel # 255
+-0.247545  
+channel # 256
+-1.173208  
+channel # 257
+-1.101582  
+channel # 258
+6.590323  
+channel # 259
+11.782677  
+channel # 260
+6.807615  
+channel # 261
+2.074432  
+channel # 262
+4.973165  
+channel # 263
+-1.415042  
+channel # 264
+0.885194  
+channel # 265
+-0.353117  
+channel # 266
+2.408438  
+channel # 267
+1.171985  
+channel # 268
+1.981304  
+channel # 269
+0.336103  
+channel # 270
+12.196500  
+channel # 271
+17.498344  
+channel # 272
+7.182831  
+channel # 273
+9.450067  
+channel # 274
+9.036664  
+channel # 275
+6.901508  
+channel # 276
+0.232308  
+channel # 277
+3.482564  
+channel # 278
+10.711198  
+channel # 279
+12.558011  
+channel # 280
+25.073984  
+channel # 281
+11.102842  
+channel # 282
+1.072408  
+channel # 283
+2.754774  
+channel # 284
+4.681592  
+channel # 285
+4.058470  
+channel # 286
+3.574118  
+channel # 287
+5.900424  
+channel # 288
+6.681788  
+channel # 289
+-0.888355  
+channel # 290
+4.105681  
+channel # 291
+1.014811  
+channel # 292
+1.742240  
+channel # 293
+0.113986  
+channel # 294
+2.044311  
+channel # 295
+0.118938  
+channel # 296
+0.928824  
+channel # 297
+9.674413  
+channel # 298
+-1.230564  
+channel # 299
+5.326026  
+channel # 300
+3.092089  
+channel # 301
+-2.089489  
+channel # 302
+0.751366  
+channel # 303
+-1.671321  
+channel # 304
+-2.095297  
+channel # 305
+-2.196062  
+channel # 306
+-3.893381  
+channel # 307
+-3.825049  
+channel # 308
+0.949684  
+channel # 309
+-1.396221  
+channel # 310
+-0.667139  
+channel # 311
+1.906090  
+channel # 312
+0.246623  
+channel # 313
+0.286044  
+channel # 314
+1.245456  
+channel # 315
+0.229696  
+channel # 316
+1.463639  
+channel # 317
+-2.882828  
+channel # 318
+0.746882  
+channel # 319
+1.483746  
+channel # 320
+-2.038267  
+channel # 321
+0.369739  
+channel # 322
+-2.544720  
+channel # 323
+-3.834805  
+channel # 324
+-1.621487  
+channel # 325
+0.020360  
+channel # 326
+-1.756470  
+channel # 327
+-2.246603  
+channel # 328
+2.832948  
+channel # 329
+0.060226  
+channel # 330
+1.139556  
+channel # 331
+-0.271386  
+channel # 332
+6.907073  
+channel # 333
+2.418659  
+channel # 334
+4.580577  
+channel # 335
+1.129872  
+channel # 336
+2.335304  
+channel # 337
+2.727406  
+channel # 338
+0.780299  
+channel # 339
+-2.602217  
+channel # 340
+-4.636754  
+channel # 341
+-2.224804  
+channel # 342
+4.034687  
+channel # 343
+3.258431  
+channel # 344
+0.317334  
+channel # 345
+-1.466033  
+channel # 346
+-1.441629  
+channel # 347
+-0.985761  
+channel # 348
+-1.591158  
+channel # 349
+5.174282  
+channel # 350
+3.737048  
+channel # 351
+5.174785  
+channel # 352
+-3.726137  
+channel # 353
+-1.890944  
+channel # 354
+-0.086334  
+channel # 355
+-1.446145  
+channel # 356
+3.189453  
+channel # 357
+10.667634  
+channel # 358
+6.855109  
+channel # 359
+5.737817  
+channel # 360
+5.335074  
+channel # 361
+1.417491  
+channel # 362
+1.531102  
+channel # 363
+2.929254  
+channel # 364
+2.255229  
+channel # 365
+-5.458720  
+channel # 366
+-2.327367  
+channel # 367
+-0.196560  
+channel # 368
+-1.626820  
+channel # 369
+0.757892  
+channel # 370
+-4.327329  
+channel # 371
+0.514213  
+channel # 372
+2.294189  
+channel # 373
+3.667998  
+channel # 374
+2.047759  
+channel # 375
+2.781949  
+channel # 376
+-1.552164  
+channel # 377
+-1.600537  
+channel # 378
+0.125271  
+channel # 379
+3.175289  
+channel # 380
+0.456324  
+channel # 381
+2.542831  
+channel # 382
+0.993747  
+channel # 383
+3.641244  
+channel # 384
+2.734396  
+channel # 385
+2.515965  
+channel # 386
+-2.887387  
+channel # 387
+-5.054840  
+channel # 388
+-0.272143  
+channel # 389
+-0.727475  
+channel # 390
+-2.638834  
+channel # 391
+-1.224628  
+channel # 392
+0.437820  
+channel # 393
+-2.664079  
+channel # 394
+-1.921111  
+channel # 395
+-1.001611  
+channel # 396
+0.194408  
+channel # 397
+-3.663974  
+channel # 398
+-2.011124  
+channel # 399
+-3.442716  
+channel # 400
+-1.353628  
+channel # 401
+-3.049340  
+channel # 402
+-1.664175  
+channel # 403
+-0.438314  
+channel # 404
+-2.089562  
+channel # 405
+-1.661595  
+channel # 406
+0.849971  
+channel # 407
+-2.332482  
+channel # 408
+-1.902706  
+channel # 409
+-2.746583  
+channel # 410
+2.593012  
+channel # 411
+-5.539837  
+channel # 412
+0.477196  
+channel # 413
+3.838849  
+channel # 414
+-3.256687  
+channel # 415
+-1.166225  
+channel # 416
+-0.205059  
+channel # 417
+-2.241284  
+channel # 418
+1.283478  
+channel # 419
+1.425347  
+channel # 420
+-0.404826  
+channel # 421
+-1.033263  
+channel # 422
+0.792230  
+channel # 423
+-1.587179  
+channel # 424
+-3.781283  
+channel # 425
+-2.593110  
+channel # 426
+1.931782  
+channel # 427
+-0.620983  
+channel # 428
+0.116248  
+channel # 429
+3.503707  
+channel # 430
+0.692837  
+channel # 431
+-5.404116  
+channel # 432
+0.299288  
+channel # 433
+-4.740814  
+channel # 434
+2.090057  
+channel # 435
+0.899948  
+channel # 436
+7.702646  
+channel # 437
+-1.005973  
+channel # 438
+0.473980  
+channel # 439
+2.156688  
+channel # 440
+-3.463222  
+channel # 441
+-0.676697  
+channel # 442
+-0.803010  
+channel # 443
+0.332502  
+channel # 444
+-1.272424  
+channel # 445
+-1.332310  
+channel # 446
+-0.654168  
+channel # 447
+-1.569400  
+channel # 448
+-3.111018  
+channel # 449
+-2.573578  
+channel # 450
+-2.462687  
+channel # 451
+0.848517  
+channel # 452
+-1.235190  
+channel # 453
+0.159971  
+channel # 454
+-1.506189  
+channel # 455
+-1.809668  
+channel # 456
+2.588997  
+channel # 457
+-1.696494  
+channel # 458
+-1.216870  
+channel # 459
+-1.785999  
+channel # 460
+-2.175256  
+channel # 461
+1.428105  
+channel # 462
+-0.826039  
+channel # 463
+2.338778  
+channel # 464
+5.715324  
+channel # 465
+-1.576235  
+channel # 466
+-0.541022  
+channel # 467
+0.788467  
+channel # 468
+-2.041171  
+channel # 469
+1.385743  
+channel # 470
+0.942937  
+channel # 471
+1.817369  
+channel # 472
+-4.067343  
+channel # 473
+-0.628326  
+channel # 474
+0.384408  
+channel # 475
+-2.205261  
+channel # 476
+0.385712  
+channel # 477
+-2.932684  
+channel # 478
+0.740658  
+channel # 479
+-0.362726  
+channel # 480
+2.236573  
+channel # 481
+0.969244  
+channel # 482
+-1.147166  
+channel # 483
+-2.505147  
+channel # 484
+-1.911143  
+channel # 485
+0.173947  
+channel # 486
+-1.792206  
+channel # 487
+-2.184180  
+channel # 488
+0.409594  
+channel # 489
+0.634198  
+channel # 490
+3.422361  
+channel # 491
+-1.932406  
+channel # 492
+-2.085470  
+channel # 493
+-2.103909  
+channel # 494
+0.452040  
+channel # 495
+-3.375974  
+channel # 496
+-2.147194  
+channel # 497
+-1.857587  
+channel # 498
+0.108691  
+channel # 499
+-1.057526  
+channel # 500
+0.279174  
+channel # 501
+-0.111935  
+channel # 502
+-0.055303  
+channel # 503
+-0.691612  
+channel # 504
+-1.555023  
+channel # 505
+-0.191928  
+channel # 506
+-0.071218  
+channel # 507
+-1.474349  
+channel # 508
+-2.015635  
+channel # 509
+3.200336  
+channel # 510
+-1.804266  
+channel # 511
+-1.083616  
+channel # 512
+-3.121677  
+channel # 513
+0.217969  
+channel # 514
+-1.069958  
+channel # 515
+-4.697791  
+channel # 516
+-2.909006  
+channel # 517
+1.274479  
+channel # 518
+-1.366201  
+channel # 519
+-1.758661  
+channel # 520
+-0.249856  
+channel # 521
+-1.749442  
+channel # 522
+0.452529  
+channel # 523
+-2.701665  
+channel # 524
+0.333107  
+channel # 525
+-5.064702  
+channel # 526
+1.783522  
+channel # 527
+0.217989  
+channel # 528
+0.013951  
+channel # 529
+1.546891  
+channel # 530
+-0.567593  
+channel # 531
+0.651232  
+channel # 532
+1.084216  
+channel # 533
+-1.546815  
+channel # 534
+-1.789742  
+channel # 535
+-0.454105  
+channel # 536
+1.952253  
+channel # 537
+-4.686553  
+channel # 538
+3.900887  
+channel # 539
+2.470646  
+channel # 540
+2.702367  
+channel # 541
+-0.930252  
+channel # 542
+-3.163422  
+channel # 543
+-0.868774  
+channel # 544
+-2.604426  
+channel # 545
+0.411530  
+channel # 546
+-0.144690  
+channel # 547
+0.684165  
+channel # 548
+-0.287978  
+channel # 549
+-0.972283  
+channel # 550
+0.953495  
+channel # 551
+-0.751128  
+channel # 552
+-1.703987  
+channel # 553
+0.447196  
+channel # 554
+-0.294531  
+channel # 555
+2.177177  
+channel # 556
+-0.862165  
+channel # 557
+1.530320  
+channel # 558
+-1.747699  
+channel # 559
+-1.118290  
+channel # 560
+-0.434198  
+channel # 561
+-0.265611  
+channel # 562
+-2.307172  
+channel # 563
+2.100398  
+channel # 564
+-0.974063  
+channel # 565
+-1.984548  
+channel # 566
+0.449625  
+channel # 567
+-2.107087  
+channel # 568
+1.029637  
+channel # 569
+-2.059018  
+channel # 570
+0.178257  
+channel # 571
+-1.581033  
+channel # 572
+-2.610534  
+channel # 573
+1.983838  
+channel # 574
+-2.161686  
+channel # 575
+4.902022  
+channel # 576
+-2.932305  
+channel # 577
+-2.814723  
+channel # 578
+-4.856348  
+channel # 579
+0.865490  
+channel # 580
+-1.284885  
+channel # 581
+1.928941  
+channel # 582
+-1.241319  
+channel # 583
+-2.865248  
+channel # 584
+-2.511282  
+channel # 585
+-1.137290  
+channel # 586
+-3.620442  
+channel # 587
+-0.819624  
+channel # 588
+-1.188532  
+channel # 589
+-1.465753  
+channel # 590
+1.612938  
+channel # 591
+-0.474621  
+channel # 592
+2.264008  
+channel # 593
+-0.142040  
+channel # 594
+1.282915  
+channel # 595
+-2.201250  
+channel # 596
+-4.024621  
+channel # 597
+0.268166  
+channel # 598
+-2.329684  
+channel # 599
+-1.836279  
+channel # 600
+-1.199326  
+channel # 601
+3.187683  
+channel # 602
+1.428410  
+channel # 603
+-4.005164  
+channel # 604
+-3.710239  
+channel # 605
+-1.239068  
+channel # 606
+1.706078  
+channel # 607
+-0.798466  
+channel # 608
+-2.353830  
+channel # 609
+0.355798  
+channel # 610
+-0.688578  
+channel # 611
+-0.376707  
+channel # 612
+4.426132  
+channel # 613
+-1.074269  
+channel # 614
+-0.383323  
+channel # 615
+-1.024690  
+channel # 616
+0.376905  
+channel # 617
+-2.553196  
+channel # 618
+0.940247  
+channel # 619
+0.487594  
+channel # 620
+0.558571  
+channel # 621
+-0.630900  
+channel # 622
+0.528748  
+channel # 623
+-0.567073  
+channel # 624
+-0.517146  
+channel # 625
+-4.562685  
+channel # 626
+-0.666571  
+channel # 627
+2.090773  
+channel # 628
+-0.260181  
+channel # 629
+1.111840  
+channel # 630
+-0.215045  
+channel # 631
+-2.935136  
+channel # 632
+2.018602  
+channel # 633
+-2.858856  
+channel # 634
+0.844125  
+channel # 635
+-5.137634  
+channel # 636
+0.311837  
+channel # 637
+-2.848942  
+channel # 638
+1.970758  
+channel # 639
+-1.312159  
+channel # 640
+-0.886781  
+channel # 641
+2.062639  
+channel # 642
+-4.379730  
+channel # 643
+-5.621588  
+channel # 644
+0.876624  
+channel # 645
+-2.245814  
+channel # 646
+-4.746654  
+channel # 647
+1.281865  
+channel # 648
+3.103823  
+channel # 649
+-2.152680  
+channel # 650
+-1.203560  
+channel # 651
+-1.278586  
+channel # 652
+-0.694080  
+channel # 653
+-2.125796  
+channel # 654
+-0.129122  
+channel # 655
+-0.101956  
+channel # 656
+-1.151139  
+channel # 657
+1.620691  
+channel # 658
+-0.212762  
+channel # 659
+-0.017619  
+channel # 660
+-0.630157  
+channel # 661
+0.298676  
+channel # 662
+-2.853987  
+channel # 663
+0.253117  
+channel # 664
+-1.744087  
+channel # 665
+0.814478  
+channel # 666
+1.704012  
+channel # 667
+-0.924671  
+channel # 668
+-2.518990  
+channel # 669
+0.301066  
+channel # 670
+2.307981  
+channel # 671
+0.627438  
+channel # 672
+-0.586920  
+channel # 673
+2.274527  
+channel # 674
+2.402433  
+channel # 675
+-0.053302  
+channel # 676
+-0.450713  
+channel # 677
+-1.405988  
+channel # 678
+1.440166  
+channel # 679
+-1.502764  
+channel # 680
+-2.569698  
+channel # 681
+1.017487  
+channel # 682
+0.419269  
+channel # 683
+-5.259132  
+channel # 684
+-1.241486  
+channel # 685
+0.010501  
+channel # 686
+-0.611497  
+channel # 687
+0.563150  
+channel # 688
+-3.181191  
+channel # 689
+1.233635  
+channel # 690
+-1.834690  
+channel # 691
+-4.395783  
+channel # 692
+2.929455  
+channel # 693
+0.756283  
+channel # 694
+-0.338729  
+channel # 695
+-1.880502  
+channel # 696
+-0.718743  
+channel # 697
+2.779737  
+channel # 698
+0.305474  
+channel # 699
+-0.756743  
+channel # 700
+-1.858603  
+channel # 701
+4.088267  
+channel # 702
+1.766654  
+channel # 703
+-4.332790  
+channel # 704
+1.255434  
+channel # 705
+1.496884  
+channel # 706
+-2.056671  
+channel # 707
+-1.827458  
+channel # 708
+-0.224207  
+channel # 709
+-2.464951  
+channel # 710
+-0.108962  
+channel # 711
+-1.923156  
+channel # 712
+1.742330  
+channel # 713
+0.032818  
+channel # 714
+-0.472332  
+channel # 715
+1.501281  
+channel # 716
+-3.014688  
+channel # 717
+2.291183  
+channel # 718
+-2.166954  
+channel # 719
+0.504114  
+channel # 720
+0.851934  
+channel # 721
+-0.249031  
+channel # 722
+0.854618  
+channel # 723
+4.740593  
+channel # 724
+-1.852749  
+channel # 725
+-1.580458  
+channel # 726
+1.211109  
+channel # 727
+-4.466753  
+channel # 728
+1.295263  
+channel # 729
+3.128910  
+channel # 730
+-2.773332  
+channel # 731
+-1.832490  
+channel # 732
+1.118852  
+channel # 733
+-4.684005  
+channel # 734
+-2.928624  
+channel # 735
+-1.714238  
+channel # 736
+-0.412205  
+channel # 737
+-3.438736  
+channel # 738
+-2.398547  
+channel # 739
+1.559809  
+channel # 740
+-0.994320  
+channel # 741
+-0.176616  
+channel # 742
+-3.020433  
+channel # 743
+0.054304  
+channel # 744
+1.481391  
+channel # 745
+-1.527178  
+channel # 746
+-2.784323  
+channel # 747
+3.678222  
+channel # 748
+-0.576562  
+channel # 749
+-1.079287  
+channel # 750
+0.658746  
+channel # 751
+0.647170  
+channel # 752
+-0.467923  
+channel # 753
+-0.795966  
+channel # 754
+1.104489  
+channel # 755
+-3.098714  
+channel # 756
+4.524877  
+channel # 757
+3.670917  
+channel # 758
+2.018354  
+channel # 759
+-0.842570  
+channel # 760
+-0.942895  
+channel # 761
+-0.252198  
+channel # 762
+2.386499  
+channel # 763
+-0.523362  
+channel # 764
+-2.422657  
+channel # 765
+-2.790262  
+channel # 766
+-2.194211  
+channel # 767
+-2.354023  
+channel # 768
+2.117071  
+channel # 769
+-1.743156  
+channel # 770
+2.552787  
+channel # 771
+-0.086705  
+channel # 772
+-2.168507  
+channel # 773
+2.883281  
+channel # 774
+1.053415  
+channel # 775
+-1.107463  
+channel # 776
+-2.865932  
+channel # 777
+-0.871675  
+channel # 778
+-4.154053  
+channel # 779
+2.080009  
+channel # 780
+-1.627261  
+channel # 781
+-0.080471  
+channel # 782
+0.890804  
+channel # 783
+2.078475  
+channel # 784
+1.934973  
+channel # 785
+1.215523  
+channel # 786
+-2.760618  
+channel # 787
+0.606910  
+channel # 788
+-2.392672  
+channel # 789
+-2.385075  
+channel # 790
+0.145759  
+channel # 791
+-0.489518  
+channel # 792
+1.916904  
+channel # 793
+5.483175  
+channel # 794
+1.585430  
+channel # 795
+3.193357  
+channel # 796
+1.629184  
+channel # 797
+0.813100  
+channel # 798
+1.913600  
+channel # 799
+-3.655360  
+channel # 800
+-0.920444  
+channel # 801
+-3.150146  
+channel # 802
+-1.505469  
+channel # 803
+2.660298  
+channel # 804
+4.260800  
+channel # 805
+2.441813  
+channel # 806
+2.690528  
+channel # 807
+-1.289807  
+channel # 808
+3.400549  
+channel # 809
+-3.706775  
+channel # 810
+-0.241401  
+channel # 811
+0.034124  
+channel # 812
+1.895388  
+channel # 813
+-0.786033  
+channel # 814
+2.904881  
+channel # 815
+-0.419471  
+channel # 816
+3.076247  
+channel # 817
+-4.575478  
+channel # 818
+-1.923129  
+channel # 819
+-0.290866  
+channel # 820
+1.760661  
+channel # 821
+-2.904951  
+channel # 822
+1.243749  
+channel # 823
+-2.276744  
+channel # 824
+1.297399  
+channel # 825
+-1.561842  
+channel # 826
+0.079872  
+channel # 827
+3.435032  
+channel # 828
+0.900859  
+channel # 829
+1.609690  
+channel # 830
+-1.075721  
+channel # 831
+-0.923811  
+channel # 832
+-0.885104  
+channel # 833
+-2.630418  
+channel # 834
+-1.870009  
+channel # 835
+-2.282992  
+channel # 836
+-0.748455  
+channel # 837
+0.198238  
+channel # 838
+-0.013062  
+channel # 839
+0.673224  
+channel # 840
+-0.335804  
+channel # 841
+1.487728  
+channel # 842
+0.580033  
+channel # 843
+0.997181  
+channel # 844
+-1.609828  
+channel # 845
+1.349227  
+channel # 846
+3.087560  
+channel # 847
+1.506160  
+channel # 848
+-3.279166  
+channel # 849
+-1.662298  
+channel # 850
+-1.724850  
+channel # 851
+0.326886  
+channel # 852
+2.216934  
+channel # 853
+1.748951  
+channel # 854
+-2.234593  
+channel # 855
+-0.597283  
+channel # 856
+1.572853  
+channel # 857
+-4.262651  
+channel # 858
+-0.175515  
+channel # 859
+-0.459342  
+channel # 860
+-1.126277  
+channel # 861
+-5.373901  
+channel # 862
+3.166127  
+channel # 863
+-1.520919  
+channel # 864
+-3.772112  
+channel # 865
+-0.639350  
+channel # 866
+-1.946288  
+channel # 867
+-2.411567  
+channel # 868
+1.548286  
+channel # 869
+2.455709  
+channel # 870
+-0.299130  
+channel # 871
+0.601594  
+channel # 872
+0.330428  
+channel # 873
+2.329439  
+channel # 874
+0.542657  
+channel # 875
+-0.502284  
+channel # 876
+-0.527717  
+channel # 877
+5.766252  
+channel # 878
+-2.380034  
+channel # 879
+-2.379111  
+channel # 880
+1.566308  
+channel # 881
+0.548874  
+channel # 882
+-2.214939  
+channel # 883
+0.537112  
+channel # 884
+0.860020  
+channel # 885
+1.663188  
+channel # 886
+-1.679923  
+channel # 887
+-1.403488  
+channel # 888
+-1.735685  
+channel # 889
+-0.759437  
+channel # 890
+-0.754404  
+channel # 891
+-0.753618  
+channel # 892
+-2.593554  
+channel # 893
+1.997043  
+channel # 894
+-0.884692  
+channel # 895
+-1.885993  
+channel # 896
+-1.014683  
+channel # 897
+2.880599  
+channel # 898
+1.590428  
+channel # 899
+2.303698  
+channel # 900
+2.509991  
+channel # 901
+2.953912  
+channel # 902
+0.437803  
+channel # 903
+0.478303  
+channel # 904
+-2.547660  
+channel # 905
+3.094168  
+channel # 906
+-0.057961  
+channel # 907
+-4.394001  
+channel # 908
+-0.410942  
+channel # 909
+1.448195  
+channel # 910
+-0.719263  
+channel # 911
+-0.891214  
+channel # 912
+0.471883  
+channel # 913
+-0.838419  
+channel # 914
+-0.252014  
+channel # 915
+0.384662  
+channel # 916
+2.428742  
+channel # 917
+1.512716  
+channel # 918
+-2.161445  
+channel # 919
+-0.033439  
+channel # 920
+3.009794  
+channel # 921
+-0.486990  
+channel # 922
+1.370738  
+channel # 923
+-2.890912  
+channel # 924
+0.360793  
+channel # 925
+-1.828902  
+channel # 926
+1.480162  
+channel # 927
+-2.802165  
+channel # 928
+-1.419909  
+channel # 929
+-0.269028  
+channel # 930
+2.063959  
+channel # 931
+-5.575484  
+channel # 932
+-0.443117  
+channel # 933
+-0.926738  
+channel # 934
+-4.581911  
+channel # 935
+-1.231514  
+channel # 936
+-0.174725  
+channel # 937
+-0.113052  
+channel # 938
+3.736961  
+channel # 939
+1.562957  
+channel # 940
+-0.683839  
+channel # 941
+-2.666391  
+channel # 942
+-2.930403  
+channel # 943
+-1.557557  
+channel # 944
+-1.796542  
+channel # 945
+-1.788496  
+channel # 946
+0.332621  
+channel # 947
+1.315552  
+channel # 948
+0.238634  
+channel # 949
+-0.304766  
+channel # 950
+0.771381  
+channel # 951
+-0.439990  
+channel # 952
+0.610300  
+channel # 953
+-2.049487  
+channel # 954
+-0.180484  
+channel # 955
+0.390012  
+channel # 956
+-4.686099  
+channel # 957
+-0.917799  
+channel # 958
+0.643003  
+channel # 959
+-0.945358  
+channel # 960
+1.261566  
+channel # 961
+-1.446067  
+channel # 962
+0.713744  
+channel # 963
+-1.640448  
+channel # 964
+-1.828423  
+channel # 965
+-1.875521  
+channel # 966
+2.627000  
+channel # 967
+-0.095465  
+channel # 968
+-4.343995  
+channel # 969
+2.359455  
+channel # 970
+0.063777  
+channel # 971
+5.137712  
+channel # 972
+2.003361  
+channel # 973
+1.401461  
+channel # 974
+0.154851  
+channel # 975
+2.191167  
+channel # 976
+1.682934  
+channel # 977
+1.777709  
+channel # 978
+1.701702  
+channel # 979
+0.097579  
+channel # 980
+1.722587  
+channel # 981
+1.469634  
+channel # 982
+-1.446516  
+channel # 983
+1.161077  
+channel # 984
+-1.965879  
+channel # 985
+0.316705  
+channel # 986
+-1.445308  
+channel # 987
+-2.844759  
+channel # 988
+3.767692  
+channel # 989
+-0.731002  
+channel # 990
+1.464961  
+channel # 991
+-6.367174  
+channel # 992
+-0.812920  
+channel # 993
+-1.557482  
+channel # 994
+-3.943851  
+channel # 995
+-2.584598  
+channel # 996
+0.492027  
+channel # 997
+-0.455162  
+channel # 998
+-3.414838  
+channel # 999
+-1.421170  
+channel #1000
+2.114094  
