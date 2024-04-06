@@ -1,2 +1,0 @@
-benchs/alexnet_weights/b_fc_w1 filter=lfs diff=lfs merge=lfs -text
-benchs/alexnet_weights/b_fc_w2 filter=lfs diff=lfs merge=lfs -text
