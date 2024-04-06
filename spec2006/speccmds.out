@@ -1,9 +1,0 @@
-running commands in speccmds.cmd 1 times
-runs started at 1562573566, 623808000, Mon Jul  8 17:12:46 2019
-run 1 started at 1562573566, 623873000, Mon Jul  8 17:12:46 2019
-child started: 0, 1562573566, 623899000, pid=8421, '../run_base_test_amd64-m64-gcc42-nn.0000/h264ref_base.amd64-m64-gcc42-nn -d foreman_test_encoder_baseline.cfg'
-child finished: 0, 1562573576, 797543000, sec=10, nsec=173644000, pid=8421, rc=0
-run 1 finished at: 1562573576, 797552000, Mon Jul  8 17:12:56 2019
-run 1 elapsed time: 10, 173679000, 10.173679000
-runs finished at 1562573576, 797642000, Mon Jul  8 17:12:56 2019
-runs elapsed time: 10, 173834000, 10.173834000
