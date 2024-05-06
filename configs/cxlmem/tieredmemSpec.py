@@ -272,10 +272,10 @@ system.membus = SystemXBar()
 
 fast_mem_ctrl = MemCtrl()
 fast_mem_ctrl.dram = DDR3_1600_8x8()
-fast_mem_ctrl.dram.tCL = "20ns"  # Column Access Strobe latency
-fast_mem_ctrl.dram.tRCD = "20ns"  # Row to Column Delay
-fast_mem_ctrl.dram.tRP = "20ns"  # Row Precharge
-fast_mem_ctrl.dram.tRAS = "40ns"  # Row Active Time
+fast_mem_ctrl.dram.tCL = "40ns"  # Column Access Strobe latency
+fast_mem_ctrl.dram.tRCD = "40ns"  # Row to Column Delay
+fast_mem_ctrl.dram.tRP = "40ns"  # Row Precharge
+fast_mem_ctrl.dram.tRAS = "80ns"  # Row Active Time
 fast_mem_ctrl.dram.range = AddrRange("0GB", options.fast_mem_size)
 fast_mem_ctrl.port = system.membus.mem_side_ports
 
@@ -285,6 +285,9 @@ slow_mem_ctrl.dram.tCL = "40ns"
 slow_mem_ctrl.dram.tRCD = "40ns"
 slow_mem_ctrl.dram.tRP = "40ns"
 slow_mem_ctrl.dram.tRAS = "80ns"
+slow_mem_ctrl.page_migration_overhead = "1000ns"
+slow_mem_ctrl.cxl_additional_latency = "120ns"
+slow_mem_ctrl.boundary = options.fast_mem_size
 slow_mem_ctrl.dram.range = AddrRange(options.fast_mem_size, options.mem_size)
 slow_mem_ctrl.port = system.membus.mem_side_ports
 

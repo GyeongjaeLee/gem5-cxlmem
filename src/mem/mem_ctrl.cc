@@ -75,6 +75,9 @@ MemCtrl::MemCtrl(const MemCtrlParams &p) :
     memSchedPolicy(p.mem_sched_policy),
     frontendLatency(p.static_frontend_latency),
     backendLatency(p.static_backend_latency),
+    pageMigrationOverhead(p.page_migration_overhead),
+    CXLAdditionalLatency(p.cxl_additional_latency),
+    boundary(p.boundary),
     commandWindow(p.command_window),
     prevArrival(0),
     stats(*this)
@@ -631,6 +634,36 @@ MemCtrl::accessAndRespond(PacketPtr pkt, Tick static_latency,
              "Can't handle address range for packet %s\n", pkt->print());
     mem_intr->access(pkt);
 
+    Addr paddr = pkt->getAddr();
+    Tick additional_latency = 0;
+    Tick migration_overhead = 0;
+    if (paddr > boundary) {
+        // Extract the page address, assuming a page size of 4KB
+        Addr page = paddr >> 12;
+
+        Tick currentTime = curTick();
+
+        // Update page access information
+        PageInfo& pageInfo = pageAccessInfo[page];
+        if (currentTime - pageInfo.lastAccessTime > accessInterval) {
+            // Reset the count after the interval has passed
+            pageInfo.accessCount = 0;
+        }
+        pageInfo.lastAccessTime = currentTime;
+        pageInfo.accessCount++;
+
+        // Set the flag if the page access count exceeds the threshold
+        if (!isMigrated(pageInfo)
+            && pageInfo.accessCount >= dynamicThreshold) {
+            setMigrationFlag(pageInfo);
+            migration_overhead = pageMigrationOverhead;
+        }
+
+        if (!isMigrated(pageInfo)) {
+            additional_latency = CXLAdditionalLatency;
+        }
+    }
+
     // turn packet around to go back to requestor if response expected
     if (needsResponse) {
         // access already turned the packet into a response
@@ -640,7 +673,8 @@ MemCtrl::accessAndRespond(PacketPtr pkt, Tick static_latency,
         // the xbar and also the payloadDelay that takes into account the
         // number of data beats.
         Tick response_time = curTick() + static_latency + pkt->headerDelay +
-                             pkt->payloadDelay;
+                             pkt->payloadDelay + additional_latency +
+                             migration_overhead;
         // Here we reset the timing of the packet before sending it out.
         pkt->headerDelay = pkt->payloadDelay = 0;
 

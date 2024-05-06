@@ -336,10 +336,10 @@ Process::allocateMem(Addr vaddr, int64_t size, bool clobber)
     }
 
     const int npages = divCeil(size, page_size);
-    // static int i = 0;
-    //const Addr paddr = seWorkload->allocPhysPages(npages, i);
-    // i = i ? 0 : 1;
-    const Addr paddr = seWorkload->allocPhysPages(npages);
+    static int i = 0;
+    const Addr paddr = seWorkload->allocPhysPages(npages, i);
+    i = i ? 0 : 1;
+    // const Addr paddr = seWorkload->allocPhysPages(npages);
 
     const Addr pages_size = npages * page_size;
     pTable->map(page_addr, paddr, pages_size,

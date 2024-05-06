@@ -99,6 +99,15 @@ class MemCtrl(QoSMemCtrl):
     static_frontend_latency = Param.Latency("10ns", "Static frontend latency")
     static_backend_latency = Param.Latency("10ns", "Static backend latency")
 
+    page_migration_overhead = Param.Latency(
+        "1000ns", "Page migration overhead"
+    )
+    cxl_additional_latency = Param.Latency(
+        "100ns", "CXL memory access latency"
+    )
+
+    boundary = Param.Addr("16GB", "Boundary between fast and slow memory")
+
     command_window = Param.Latency("10ns", "Static backend latency")
     disable_sanity_check = Param.Bool(False, "Disable port resp Q size check")
 

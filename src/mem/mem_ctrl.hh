@@ -245,6 +245,28 @@ typedef std::deque<MemPacket*> MemPacketQueue;
  */
 class MemCtrl : public qos::MemCtrl
 {
+  private:
+    struct PageInfo
+    {
+        Tick lastAccessTime = 0;
+        int accessCount = 0;
+        int migrated = 0;
+    };
+
+    std::map<Addr, PageInfo> pageAccessInfo;
+    Tick accessInterval = 1000000;
+    int dynamicThreshold = 4;
+
+    int isMigrated(PageInfo &pageinfo)
+    {
+      return pageinfo.migrated;
+    }
+
+    void setMigrationFlag(PageInfo &pageinfo)
+    {
+      pageinfo.migrated = 1;
+    }
+
   protected:
 
     // For now, make use of a queued response port to avoid dealing with
@@ -537,6 +559,12 @@ class MemCtrl : public qos::MemCtrl
      * by the memory.
      */
     const Tick backendLatency;
+
+    const Tick pageMigrationOverhead;
+
+    const Tick CXLAdditionalLatency;
+
+    const Addr boundary;
 
     /**
      * Length of a command window, used to check
