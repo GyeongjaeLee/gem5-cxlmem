@@ -57,6 +57,12 @@ namespace gem5
 namespace memory
 {
 
+int dram_miss;
+int cxl_miss;
+Tick lastMonitor;
+int dynamicThreshold = 4;
+int migratedPages = 0;
+
 MemCtrl::MemCtrl(const MemCtrlParams &p) :
     qos::MemCtrl(p),
     port(name() + ".port", *this), isTimingMode(false),
@@ -637,31 +643,63 @@ MemCtrl::accessAndRespond(PacketPtr pkt, Tick static_latency,
     Addr paddr = pkt->getAddr();
     Tick additional_latency = 0;
     Tick migration_overhead = 0;
+    Tick currentTime = curTick();
     if (paddr > boundary) {
         // Extract the page address, assuming a page size of 4KB
         Addr page = paddr >> 12;
 
-        Tick currentTime = curTick();
-
-        // Update page access information
         PageInfo& pageInfo = pageAccessInfo[page];
-        if (currentTime - pageInfo.lastAccessTime > accessInterval) {
-            // Reset the count after the interval has passed
-            pageInfo.accessCount = 0;
-        }
-        pageInfo.lastAccessTime = currentTime;
-        pageInfo.accessCount++;
-
-        // Set the flag if the page access count exceeds the threshold
-        if (!isMigrated(pageInfo)
-            && pageInfo.accessCount >= dynamicThreshold) {
-            setMigrationFlag(pageInfo);
-            migration_overhead = pageMigrationOverhead;
-        }
-
+        // Set the flag if the page access count exceeds in the given interval.
         if (!isMigrated(pageInfo)) {
+            // Record last 6 page access time
+            cxl_miss++;
             additional_latency = CXLAdditionalLatency;
+
+            for (int i = 5; i > 0; i--) {
+                pageInfo.lastAccessTime[i] = pageInfo.lastAccessTime[i - 1];
+            }
+            pageInfo.lastAccessTime[0] = currentTime;
+
+            // dynamicThreshold th last access would be
+            // the target for comparison
+            Tick targetAccess = pageInfo.lastAccessTime[dynamicThreshold - 1];
+            if (targetAccess != 0
+                && (currentTime - targetAccess < accessInterval)) {
+                setMigrationFlag(pageInfo);
+                migration_overhead = pageMigrationOverhead;
+                pageInfo.migrationStart = currentTime;
+                migratedPages++;
+            }
+        } else {
+            Tick fromMigration = currentTime - pageInfo.migrationStart;
+            // if migration is ongoing, access is delayed
+            // until migration finishs.
+            if (fromMigration < pageMigrationOverhead) {
+                migration_overhead = pageMigrationOverhead - fromMigration;
+            }
+            dram_miss++;
         }
+    } else {
+        dram_miss++;
+    }
+
+  if (currentTime - lastMonitor > 5000000) {
+        int tempthreshold = dynamicThreshold;
+        float rate = cxl_miss / (dram_miss + cxl_miss + 1.0);
+        if (rate < 0.2) {
+            dynamicThreshold = 4;
+        } else if (rate < 0.4) {
+            dynamicThreshold = 3;
+        } else {
+            dynamicThreshold = 2;
+        }
+
+        DPRINTF(MemCtrl, "Threshold is changed from %d to %d. Dram Miss
+         : %d. CXL Miss : %d. Rate : %f. Migrated Pages : %d\n", tempthreshold,
+          dynamicThreshold, dram_miss, cxl_miss, rate, migratedPages);
+        lastMonitor = curTick();
+        dram_miss = 0;
+        cxl_miss = 0;
     }
 
     // turn packet around to go back to requestor if response expected

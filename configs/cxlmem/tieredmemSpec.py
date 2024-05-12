@@ -276,6 +276,7 @@ fast_mem_ctrl.dram.tCL = "40ns"  # Column Access Strobe latency
 fast_mem_ctrl.dram.tRCD = "40ns"  # Row to Column Delay
 fast_mem_ctrl.dram.tRP = "40ns"  # Row Precharge
 fast_mem_ctrl.dram.tRAS = "80ns"  # Row Active Time
+fast_mem_ctrl.boundary = options.fast_mem_size
 fast_mem_ctrl.dram.range = AddrRange("0GB", options.fast_mem_size)
 fast_mem_ctrl.port = system.membus.mem_side_ports
 

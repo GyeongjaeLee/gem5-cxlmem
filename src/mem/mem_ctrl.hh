@@ -248,14 +248,13 @@ class MemCtrl : public qos::MemCtrl
   private:
     struct PageInfo
     {
-        Tick lastAccessTime = 0;
-        int accessCount = 0;
+        Tick lastAccessTime[6] = {0};
         int migrated = 0;
+        Tick migrationStart = 0;
     };
 
     std::map<Addr, PageInfo> pageAccessInfo;
-    Tick accessInterval = 1000000;
-    int dynamicThreshold = 4;
+    Tick accessInterval = 500000;
 
     int isMigrated(PageInfo &pageinfo)
     {
