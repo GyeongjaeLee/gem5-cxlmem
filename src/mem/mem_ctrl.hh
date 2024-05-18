@@ -249,21 +249,27 @@ class MemCtrl : public qos::MemCtrl
     struct PageInfo
     {
         Tick lastAccessTime[6] = {0};
+        int firstaccess = 0;
+        int isDram = 0;
         int migrated = 0;
         Tick migrationStart = 0;
+        int accessNum = 0;
+        // flags whether this page is counted as hot page
+        int hotCounted = 0;
+        int totalCounted = 0;
     };
 
     std::map<Addr, PageInfo> pageAccessInfo;
     Tick accessInterval = 500000;
 
-    int isMigrated(PageInfo &pageinfo)
+    void setDRAMflag(PageInfo &pageinfo)
     {
-      return pageinfo.migrated;
+      pageinfo.isDram = 1;
     }
 
-    void setMigrationFlag(PageInfo &pageinfo)
+    void unsetDRAMflat(PageInfo &pageinfo)
     {
-      pageinfo.migrated = 1;
+      pageinfo.isDram = 0;
     }
 
   protected:
@@ -564,6 +570,7 @@ class MemCtrl : public qos::MemCtrl
     const Tick CXLAdditionalLatency;
 
     const Addr boundary;
+    Addr pageBoundary;
 
     /**
      * Length of a command window, used to check

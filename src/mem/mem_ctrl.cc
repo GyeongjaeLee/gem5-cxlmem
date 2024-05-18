@@ -60,8 +60,15 @@ namespace memory
 int dram_miss;
 int cxl_miss;
 Tick lastMonitor;
-int dynamicThreshold = 4;
+int dynamicThreshold = 6;
+
+int totalPages = 0;
 int migratedPages = 0;
+int totalHotPages = 0;
+int migratedHotPages = 0;
+
+Addr dramPages = 0;
+Addr CXLPages = 0;
 
 MemCtrl::MemCtrl(const MemCtrlParams &p) :
     qos::MemCtrl(p),
@@ -103,6 +110,7 @@ MemCtrl::MemCtrl(const MemCtrlParams &p) :
     if (p.disable_sanity_check) {
         port.disableSanityCheck();
     }
+    pageBoundary = boundary / 4096;
 }
 
 void
@@ -640,63 +648,126 @@ MemCtrl::accessAndRespond(PacketPtr pkt, Tick static_latency,
              "Can't handle address range for packet %s\n", pkt->print());
     mem_intr->access(pkt);
 
-    Addr paddr = pkt->getAddr();
     Tick additional_latency = 0;
     Tick migration_overhead = 0;
     Tick currentTime = curTick();
-    if (paddr > boundary) {
-        // Extract the page address, assuming a page size of 4KB
-        Addr page = paddr >> 12;
 
-        PageInfo& pageInfo = pageAccessInfo[page];
-        // Set the flag if the page access count exceeds in the given interval.
-        if (!isMigrated(pageInfo)) {
-            // Record last 6 page access time
-            cxl_miss++;
-            additional_latency = CXLAdditionalLatency;
+    Addr paddr = pkt->getAddr();
+    Addr page = paddr >> 12;
+    PageInfo& pageInfo = pageAccessInfo[page];
 
-            for (int i = 5; i > 0; i--) {
-                pageInfo.lastAccessTime[i] = pageInfo.lastAccessTime[i - 1];
-            }
-            pageInfo.lastAccessTime[0] = currentTime;
+    for (int i = 5; i > 0; i--) {
+        pageInfo.lastAccessTime[i] = pageInfo.lastAccessTime[i - 1];
+    }
+    pageInfo.lastAccessTime[0] = currentTime;
 
-            // dynamicThreshold th last access would be
-            // the target for comparison
-            Tick targetAccess = pageInfo.lastAccessTime[dynamicThreshold - 1];
-            if (targetAccess != 0
-                && (currentTime - targetAccess < accessInterval)) {
-                setMigrationFlag(pageInfo);
-                migration_overhead = pageMigrationOverhead;
-                pageInfo.migrationStart = currentTime;
-                migratedPages++;
-            }
+    // we assume first access to the page is page allocation stage
+    // if dram is available, allocate page to dram
+    // otherwise, allocate to CXL memory
+    if (!pageInfo.firstaccess) {
+        totalPages++;
+        pageInfo.firstaccess = 1;
+        if (dramPages < pageBoundary) {
+            pageInfo.isDram = 1;
+            dramPages++;
         } else {
-            Tick fromMigration = currentTime - pageInfo.migrationStart;
-            // if migration is ongoing, access is delayed
-            // until migration finishs.
-            if (fromMigration < pageMigrationOverhead) {
-                migration_overhead = pageMigrationOverhead - fromMigration;
-            }
-            dram_miss++;
+            pageInfo.isDram = 0;
+            CXLPages++;
         }
-    } else {
-        dram_miss++;
     }
 
-  if (currentTime - lastMonitor > 5000000) {
+    // for trace
+    pageInfo.accessNum++;
+
+    if (pageInfo.isDram) {
+        // if migration is ongoing, access is delayed
+        // until migration finishs.
+        Tick fromMigration = currentTime - pageInfo.migrationStart;
+        if (fromMigration < pageMigrationOverhead) {
+            migration_overhead = pageMigrationOverhead - fromMigration;
+        }
+        dram_miss++;
+    } else {
+        // page migration with swap
+        // Record last 6 page access time
+        cxl_miss++;
+        additional_latency = CXLAdditionalLatency;
+
+        // dynamicThreshold th last access would be
+        // the target for comparison
+        Tick targetAccess = pageInfo.lastAccessTime[dynamicThreshold - 1];
+        if (targetAccess != 0
+            && (currentTime - targetAccess < accessInterval)) {
+            pageInfo.isDram = 1;
+            migration_overhead = pageMigrationOverhead;
+            pageInfo.migrationStart = currentTime;
+            // for trace
+            migratedPages++;
+            // we just swap pages between DRAM and CXL mem,
+            // so don't need to care about dramPages and CXLPages.
+
+            // Initialize
+            Addr lruAddr = 0;
+            Tick minLastAccessTime = ~0;
+
+            // Iterate through all PageInfo to find the one with isDram == 1
+            // and the smallest lastAccessTime[0]
+            for (auto &entry : pageAccessInfo) {
+                Addr addr = entry.first;
+                PageInfo &pageInfo = entry.second;
+
+                // Only check if isDram is 1
+                if (pageInfo.isDram == 1
+                 && pageInfo.lastAccessTime[0] < minLastAccessTime) {
+                    minLastAccessTime = pageInfo.lastAccessTime[0];
+                    lruAddr = addr;
+                }
+            }
+
+            // Set the isDram of the LRU page to 0
+            if (lruAddr != 0) {
+                PageInfo demotedPage = paceAccessInfo[lruAddr];
+                demotedPage.isDram = 0;
+                // demotedPage.accessNum = 0;
+                // demotedPage.migrated = 0;
+            }
+
+        }
+    }
+
+    // if (!pageInfo.totalCount) {
+    //     pageInfo.totalCount = 1;
+    //     if (pageInfo.accessNum > 20) {
+    //         totalHotPages++:
+    //     }
+
+    //     if (pageInfo.migrated && pageInfo.accessNum > 20) {
+    //         pageInfo.hotCounted = 1;
+    //         migratedHotPages++;
+    //     }
+    // }
+
+    if (currentTime - lastMonitor > 5000000) {
         int tempthreshold = dynamicThreshold;
         float rate = cxl_miss / (dram_miss + cxl_miss + 1.0);
-        if (rate < 0.2) {
+        if (rate < 0.1) {
+            dynamicThreshold = 6;
+        } else if (rate < 0.15) {
+            dynamicThreshold = 5;
+        } else if (rate < 0.2) {
             dynamicThreshold = 4;
-        } else if (rate < 0.4) {
+        } else if (rate < 0.25) {
             dynamicThreshold = 3;
         } else {
             dynamicThreshold = 2;
         }
 
-        DPRINTF(MemCtrl, "Threshold is changed from %d to %d. Dram Miss
-         : %d. CXL Miss : %d. Rate : %f. Migrated Pages : %d\n", tempthreshold,
-          dynamicThreshold, dram_miss, cxl_miss, rate, migratedPages);
+        DPRINTF(MemCtrl, "Threshold %d -> %d. Dram Miss : %d. CXL Miss : %d.
+         Rate : %f. Total Pages : %d. Migrated Pages : %d. Migrated Hot Pages
+          : %d. Total Hot Pages : %d. Dram Pages : %u. CXL Pages : %u.\n",
+         tempthreshold, dynamicThreshold, dram_miss, cxl_miss, rate,
+          totalPages, migratedPages, migratedHotPages, totalHotPages,
+           dramPages, CXLPages);
         lastMonitor = curTick();
         dram_miss = 0;
         cxl_miss = 0;

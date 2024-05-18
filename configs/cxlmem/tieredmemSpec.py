@@ -277,22 +277,22 @@ fast_mem_ctrl.dram.tRCD = "40ns"  # Row to Column Delay
 fast_mem_ctrl.dram.tRP = "40ns"  # Row Precharge
 fast_mem_ctrl.dram.tRAS = "80ns"  # Row Active Time
 fast_mem_ctrl.boundary = options.fast_mem_size
-fast_mem_ctrl.dram.range = AddrRange("0GB", options.fast_mem_size)
+fast_mem_ctrl.dram.range = AddrRange("0GB", options.mem_size)
 fast_mem_ctrl.port = system.membus.mem_side_ports
 
-slow_mem_ctrl = MemCtrl()
-slow_mem_ctrl.dram = DDR3_1600_8x8()
-slow_mem_ctrl.dram.tCL = "40ns"
-slow_mem_ctrl.dram.tRCD = "40ns"
-slow_mem_ctrl.dram.tRP = "40ns"
-slow_mem_ctrl.dram.tRAS = "80ns"
-slow_mem_ctrl.page_migration_overhead = "1000ns"
-slow_mem_ctrl.cxl_additional_latency = "120ns"
-slow_mem_ctrl.boundary = options.fast_mem_size
-slow_mem_ctrl.dram.range = AddrRange(options.fast_mem_size, options.mem_size)
-slow_mem_ctrl.port = system.membus.mem_side_ports
+# slow_mem_ctrl = MemCtrl()
+# slow_mem_ctrl.dram = DDR3_1600_8x8()
+# slow_mem_ctrl.dram.tCL = "40ns"
+# slow_mem_ctrl.dram.tRCD = "40ns"
+# slow_mem_ctrl.dram.tRP = "40ns"
+# slow_mem_ctrl.dram.tRAS = "80ns"
+# slow_mem_ctrl.page_migration_overhead = "1000ns"
+# slow_mem_ctrl.cxl_additional_latency = "120ns"
+# slow_mem_ctrl.boundary = options.fast_mem_size
+# slow_mem_ctrl.dram.range = AddrRange(options.fast_mem_size, options.mem_size)
+# slow_mem_ctrl.port = system.membus.mem_side_ports
 
-system.mem_ctrls = [fast_mem_ctrl, slow_mem_ctrl]
+system.mem_ctrls = fast_mem_ctrl
 
 system.system_port = system.membus.cpu_side_ports
 
